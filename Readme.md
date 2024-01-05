@@ -1,3 +1,6 @@
+# Architecture
+![Architecture](images/architecture.png)
+
 # Elemento coding conventions
 
 Use this repo as template for new and existing repos

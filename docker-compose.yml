@@ -1,0 +1,62 @@
+version: "3.8"
+
+services:
+  gateway:
+    build: ./gateway
+    hostname: gateway
+    ports:
+      - "8080:8080"
+    networks:
+      - net
+    restart: unless-stopped
+
+  middleware:
+    build: ./middleware
+    hostname: middleware
+    environment:
+      DB_URL: mongodb://db/cache
+    networks:
+      - net
+    restart: unless-stopped
+
+  web_scraper:
+    build: ./web_scraper
+    hostname: web_scraper
+    networks:
+      - net
+    restart: unless-stopped
+
+  manager_ollama:
+    build: ./manager_ollama
+    hostname: manager_ollama
+    networks:
+      - net
+    restart: unless-stopped
+
+  db:
+    image: mongo:4.4.6
+    hostname: db
+    volumes:
+      - cache:/data/db
+    networks:
+      - net
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama
+    hostname: ollama
+    volumes:
+      - ollama_data:/app
+    networks:
+      - net
+    restart: unless-stopped
+
+volumes:
+  cache:
+    driver: local
+  ollama_data:
+    driver: local
+
+networks:
+  net:
+    driver: bridge
