@@ -34,7 +34,7 @@ services:
     restart: unless-stopped
 
   db:
-    image: mongo:4.4.6
+    image: postgres:13.1-alpine
     hostname: db
     volumes:
       - cache:/data/db
