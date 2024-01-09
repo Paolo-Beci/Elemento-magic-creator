@@ -1,11 +1,11 @@
-FROM alpine:latest
+FROM python:3.9-slim
 
-ENV DUMMY_VARIABLE="Hello, i'm the manager of Ollama!"
-
-WORKDIR /manager_ollama
 WORKDIR /manager_ollama/app
 
-COPY dummy_script.sh /manager_ollama/app/
-RUN chmod +x /manager_ollama/app/dummy_script.sh
+COPY . /manager_ollama/app
 
-CMD ["/manager_ollama/app/dummy_script.sh"]
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
+ENV FLASK_APP=app.py
+
+CMD ["flask", "run"]
