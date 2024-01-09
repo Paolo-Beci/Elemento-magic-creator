@@ -48,10 +48,7 @@ func Gateway(listenAddr string) *APIServer {
 func (s *APIServer) Run() {
 	router := mux.NewRouter()
 
-	router.HandleFunc("/specs", makeHTTPHandleFunc(s.handleSpecsCall))
-	router.HandleFunc("/specs/{name}", makeHTTPHandleFunc(s.handleGetSpecsCall))
-	router.HandleFunc("/specs/new", makeHTTPHandleFunc(s.handlePostSpecsCall))
-	router.HandleFunc("/specs/delete", makeHTTPHandleFunc(s.handleDeleteSpecsCall))
+	router.HandleFunc("/api/v1/specs/{payload}", makeHTTPHandleFunc(s.handleGetSpecsCall))
 
 	log.Println("Starting API server on port", s.listenAddr)
 
@@ -59,37 +56,11 @@ func (s *APIServer) Run() {
 }
 
 // API Routes
-func (s *APIServer) handleSpecsCall(w http.ResponseWriter, r *http.Request) error{
-	if(r.Method == "GET") {
-		return s.handleGetSpecsCall(w, r)
-	}
-	if(r.Method == "POST") {
-		return s.handlePostSpecsCall(w, r)
-	}
-	if(r.Method == "DELETE") {
-		return s.handleDeleteSpecsCall(w, r)
-	}
-
-	return fmt.Errorf("method %s not allowed", r.Method)
-}
-
 func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
 	specs := NewSpecs("Test GET response")
 
-	name := mux.Vars(r)["name"]
-	fmt.Println("Name:", name)
-
-	return WriteJSON(w, http.StatusOK, specs)
-}
-
-func (s *APIServer) handlePostSpecsCall(w http.ResponseWriter, r *http.Request) error {
-	specs := NewSpecs("Test POST response")
-
-	return WriteJSON(w, http.StatusOK, specs)
-}
-
-func (s *APIServer) handleDeleteSpecsCall(w http.ResponseWriter, r *http.Request) error {
-	specs := NewSpecs("Test DELETE response")
+	name := mux.Vars(r)["payload"]
+	fmt.Println("Payload:", name)
 
 	return WriteJSON(w, http.StatusOK, specs)
 }
