@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"time"
+
 
 	"github.com/gorilla/mux"
 )
@@ -36,11 +38,19 @@ func makeHTTPHandleFunc(f apiFunc) http.HandlerFunc {
 
 type APIServer struct {
 	listenAddr string
+	remoteHost  string 
+	remotePort  string // DA TOGLIERE SE FUNZIONA IL NETWORKING
+	client      *http.Client
 }
 
-func Gateway(listenAddr string) *APIServer {
+func Gateway(listenAddr, remoteHost, remotePort string) *APIServer {
 	return &APIServer{
 		listenAddr: listenAddr,
+		remoteHost: remoteHost,
+		remotePort: remotePort,
+		client: &http.Client{
+			Timeout: 5 * time.Second, // Set a timeout for the HTTP client
+		},
 	}
 }
 
@@ -59,8 +69,17 @@ func (s *APIServer) Run() {
 func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
 	specs := NewSpecs("Test GET response")
 
-	name := mux.Vars(r)["payload"]
-	fmt.Println("Payload:", name)
+	payload := mux.Vars(r)["payload"]
+	fmt.Println("Payload:", payload)
+
+	// Make a GET request to middleware container
+	remoteURL := fmt.Sprintf("http://%s:%s/api/v1/get-specs?name=%s", s.remoteHost, s.remotePort, payload) // DA TOGLIERE PORTA SE FUNZIONA IL NETWORKING
+	response, err := s.client.Get(remoteURL)
+	if err != nil {
+		fmt.Println("Error making GET request to another container:", err)
+		return WriteJSON(w, http.StatusInternalServerError, apiError{Error: "Internal Server Error"})
+	}
+	defer response.Body.Close()
 
 	return WriteJSON(w, http.StatusOK, specs)
 }
