@@ -1,13 +1,8 @@
 FROM golang:latest AS builder
 
-WORKDIR /app
+WORKDIR /gateway/app
 
-COPY go.mod .
-COPY go.sum .
-
-RUN go mod download
-
-COPY . .
+COPY . /gateway/app
 
 RUN cd src/gateway && go build -o /app/bin/gateway
 
