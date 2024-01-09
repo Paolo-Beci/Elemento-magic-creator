@@ -14,4 +14,4 @@ COPY --from=builder /app/bin/gateway .
 
 EXPOSE 8080
 
-CMD ["./gateway"]
+CMD ["/bin/gateway"]
