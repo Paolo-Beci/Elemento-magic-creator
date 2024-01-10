@@ -1,11 +1,16 @@
-FROM alpine:latest
+FROM golang:latest AS builder
 
-ENV DUMMY_VARIABLE="Hello, i'm the gateway!"
-
-WORKDIR /gateway
 WORKDIR /gateway/app
 
-COPY dummy_script.sh /gateway/app/
-RUN chmod +x /gateway/app/dummy_script.sh
+COPY . /gateway/app
 
-CMD ["/gateway/app/dummy_script.sh"]
+RUN cd src/gateway && go build -o /app/bin/gateway
+
+FROM alpine:latest
+RUN apk add ca-certificates
+
+COPY --from=builder /app/bin/gateway .
+
+EXPOSE 8080
+
+CMD ["/app/bin/gateway"]
