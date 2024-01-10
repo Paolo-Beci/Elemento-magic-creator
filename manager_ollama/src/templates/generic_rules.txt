@@ -1,0 +1,13 @@
+- slots: number of cores
+- overprovision: maximum VMs for each core
+- Is it allow SMT? (yes/no)
+- archs: architecture of the system
+- flags: processor's instruction set architecture
+- min_frequency : minimum processor frequency expressed in GHz
+- ramsize: RAM dimension expressed in Bytes
+- reqECC: request for ECC RAM
+- misc : OS Infos
+- pci: Graphic card specs: vendor code, model code,  quantity
+- Audio card specs: vendor code, model code, quantity
+
+ *NB: You can mount a spare audio card but not a spare graphic card, every graphic card has to be mounted along with its related audio card*   

@@ -13,11 +13,6 @@
             "vendor": "",
             "model": "",
             "quantity": 
-        },
-        {
-            "vendor": "",
-            "model": "",
-            "quantity": 
         }
     ]
 }
