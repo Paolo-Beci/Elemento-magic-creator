@@ -8,7 +8,7 @@ Il middleware deve svolgere il ruolo di intermediario tra un API Gateway e vari 
 Il middleware deve essere in grado di accettare richieste API in ingresso provenienti dall'API Gateway.
 2. Risposta alle Richieste GET:
 Gestire richieste GET inviate dall'API Gateway e prendere decisioni sulla base di queste richieste.
-3. Verifica Presenza Programma nel Database Interno (todo):
+3. Verifica Presenza Programma nel Database Interno:
 Verificare se il programma richiesto è presente nel database interno.
 4. Gestione delle Comunicazioni tra Componenti:
 Coordinare e gestire le comunicazioni tra il database interno, il web scraper e altri componenti del sistema.

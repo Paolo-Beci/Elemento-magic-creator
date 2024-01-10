@@ -1,11 +1,12 @@
-FROM alpine:latest
+FROM python:3.9-alpine
 
-ENV DUMMY_VARIABLE="Hello, i'm the Midlleware!"
+WORKDIR /middleware
 
-WORKDIR /midlleware
-WORKDIR /midlleware/app
+COPY src/requirements.txt /middleware/
+COPY dummy_script.sh /middleware/
 
-COPY dummy_script.sh /midlleware/app/
-RUN chmod +x /midlleware/app/dummy_script.sh
+RUN apk --no-cache add gcc musl-dev libffi-dev openssl-dev \
+    && pip install --no-cache-dir -r requirements.txt \
+    && chmod +x dummy_script.sh
 
-CMD ["/midlleware/app/dummy_script.sh"]
+CMD ["/middleware/dummy_script.sh"]
