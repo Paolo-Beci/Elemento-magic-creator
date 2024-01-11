@@ -1,7 +1,7 @@
 from templates import templates
 
 
-def first_payload(filtered_text):
+def extract_requirements(filtered_text):
     prompt = (
         "Get all core information about techinical System Requirements from this text:"
         + filtered_text
@@ -16,10 +16,10 @@ def first_payload(filtered_text):
     return payload
 
 
-def second_payload(data):
+def generate_config(data):
     prompt = (
         "Considering the requirements:"
-        + data["response"]
+        + data
         + "Create a JSON following rules:"
         + templates.get_rules()
         + "Return only the json with this structure:"

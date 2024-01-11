@@ -17,26 +17,25 @@ def ollama_request():
     api_url = "http://ollama:11434/api/generate"
 
     try:
-        request_data = request.json
+        if "data" in request.json:
+            data = request.json["data"]
 
-        if "data" in request_data:
-            # * First step: refinement of the body
-            filtered_text = utils.get_core_info(request_data["data"])
-            payload = ollama_utils.first_payload(filtered_text)
-            response = requests.post(api_url, json=payload)
+            if "direct" not in request.args:
+                # * First step: refinement of the body
+                filtered_text = utils.get_core_info(data)
+                payload = ollama_utils.extract_requirements(filtered_text)
+                response = requests.post(api_url, json=payload)
 
-            if response.status_code != 200:
-                return (
-                    jsonify({"error": "Failed to fetch data from Ollama API"}),
-                    response.status_code,
-                )
+                if response.status_code != 200:
+                    return (
+                        jsonify({"error": "Failed to fetch data from Ollama API"}),
+                        response.status_code,
+                    )
+
+                data = response.json()["response"]
 
             # * Second step: generate the actual json
-            data = response.json()
-            if "response" not in data:
-                return jsonify({"error": "Incorrect response format from Ollama"}), 500
-
-            payload = ollama_utils.second_payload(data)
+            payload = ollama_utils.generate_config(data)
             response = requests.post(api_url, json=payload)
 
             if response.status_code != 200:
