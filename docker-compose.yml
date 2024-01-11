@@ -12,9 +12,8 @@ services:
 
   middleware:
     build:
-      context: .
-    networks:
-      - net
+      context: ./middleware
+      dockerfile: Dockerfile
     restart: unless-stopped
 
   web_scraper:
