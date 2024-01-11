@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 	"time"
-	"io"
 
 
 	"github.com/gorilla/mux"
@@ -16,7 +15,7 @@ import (
 // Gorilla mux licence - https://github.com/gorilla/mux#BSD-3-Clause-1-ov-file
 
 func WriteJSON(w http.ResponseWriter, status int, v any) error {
-	//w.WriteHeader(status)
+	w.WriteHeader(status)
 	w.Header().Set("Content-Type", "application/json")
 	return json.NewEncoder(w).Encode(v)
 }
@@ -67,37 +66,18 @@ func (s *APIServer) Run() {
 }
 
 // API Routes
-func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) {
+func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
 	payload := mux.Vars(r)["payload"]
 	fmt.Println("Payload:", payload)
 
 	// Make a GET request to middleware container
-	remoteURL := fmt.Sprintf("http://%s:%s/api/v1/get-specs?name=%s", s.remoteHost, s.remotePort, payload)
-
+	remoteURL := fmt.Sprintf("http://%s:%s/api/v1/get-specs?name=%s", s.remoteHost, s.remotePort, payload) // DA TOGLIERE PORTA SE FUNZIONA IL NETWORKING
 	response, err := s.client.Get(remoteURL)
 	if err != nil {
 		fmt.Println("Error making GET request to another container:", err)
-		WriteJSON(w, http.StatusInternalServerError, apiError{Error: "Internal Server Error"})
-		return
+		return WriteJSON(w, http.StatusInternalServerError, apiError{Error: "Internal Server Error"})
 	}
 	defer response.Body.Close()
 
-	if response.StatusCode != http.StatusOK {
-		fmt.Printf("Error: Unexpected status code %d from another container\n", response.StatusCode)
-		WriteJSON(w, response.StatusCode, apiError{Error: "Unexpected Status Code"})
-		return
-	}
-
-	// Copy headers from the response to the writer
-	for key, values := range response.Header {
-		w.Header()[key] = values
-	}
-
-	// Copy the body from the response to the writer
-	_, err = io.Copy(w, response.Body)
-	if err != nil {
-		fmt.Println("Error copying response body:", err)
-		WriteJSON(w, http.StatusInternalServerError, apiError{Error: "Internal Server Error"})
-		return
-	}
+	return WriteJSON(w, http.StatusOK, response)
 }
