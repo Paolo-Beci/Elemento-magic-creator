@@ -25,16 +25,22 @@ services:
 
   manager_ollama:
     build: ./manager_ollama
+    container_name: manager-ollama
     hostname: manager_ollama
+    ports: 
+      - "5001:5001"
     networks:
       - net
     restart: unless-stopped
 
   ollama:
     image: ollama/ollama
+    container_name: ollama
     hostname: ollama
+    ports:
+      - "11434:11434"
     volumes:
-      - ollama_data:/app
+      - ollama_data:/root/.ollama
     networks:
       - net
     restart: unless-stopped

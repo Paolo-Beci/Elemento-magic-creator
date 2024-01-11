@@ -14,7 +14,7 @@ def check_server():
 
 @app.route("/manager-ollama/payload", methods=["GET"])
 def ollama_request():
-    api_url = "http://localhost:11434/api/generate"
+    api_url = "http://ollama:11434/api/generate"
 
     try:
         request_data = request.json
@@ -58,4 +58,4 @@ def ollama_request():
 
 ##* APP (just for testing purpose - use flask run instead) *##
 if __name__ == "__main__":
-    app.run(port=8000, debug=True)
+    app.run(port=5001, debug=True)
