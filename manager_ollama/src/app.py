@@ -7,12 +7,12 @@ app = Flask(__name__)
 
 
 ##* APIs *##
-@app.route("/manager-ollama/check-server", methods=["GET"])
+@app.route("/api/v1/check-server", methods=["GET"])
 def check_server():
     return jsonify({"message": "Manager-ollama server is running"})
 
 
-@app.route("/manager-ollama/payload", methods=["GET"])
+@app.route("/api/v1/generate", methods=["GET"])
 def ollama_request():
     api_url = "http://ollama:11434/api/generate"
 
