@@ -53,7 +53,7 @@ services:
     restart: unless-stopped
 
   ui:
-    build: ./ui
+    build: ./UI
     container_name: ui
     hostname: ui
     ports:
