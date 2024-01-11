@@ -12,19 +12,21 @@ services:
 
   middleware:
     build: ./middleware
+    container_name: middleware
     hostname: middleware
     networks:
       - net
     restart: unless-stopped
 
-  web_scraper:
+  web-scraper:
     build: ./web_scraper
+    container_name: web-scraper
     hostname: web_scraper
     networks:
       - net
     restart: unless-stopped
 
-  manager_ollama:
+  manager-ollama:
     build: ./manager_ollama
     container_name: manager-ollama
     hostname: manager-ollama
@@ -50,6 +52,15 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     restart: unless-stopped
 
+  ui:
+    build: ./ui
+    container_name: ui
+    hostname: ui
+    ports:
+      - "80:80"
+    networks:
+      - net
+    restart: unless-stopped
 
 volumes:
   cache:
