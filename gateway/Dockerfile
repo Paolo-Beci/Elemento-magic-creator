@@ -1,11 +1,13 @@
-FROM alpine:latest
+FROM golang:1.22-rc-alpine
 
-ENV DUMMY_VARIABLE="Hello, i'm the gateway!"
+WORKDIR /app
 
-WORKDIR /gateway
-WORKDIR /gateway/app
+COPY ./app /app
+COPY go.* /app
+RUN go mod download
 
-COPY dummy_script.sh /gateway/app/
-RUN chmod +x /gateway/app/dummy_script.sh
+RUN go build -o gateway .
 
-CMD ["/gateway/app/dummy_script.sh"]
+EXPOSE 8080
+
+CMD ["./gateway"]    

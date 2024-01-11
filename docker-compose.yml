@@ -11,12 +11,9 @@ services:
     restart: unless-stopped
 
   middleware:
-    build: ./middleware
-    hostname: middleware
-    environment:
-      DB_URL: mongodb://db/cache
-    networks:
-      - net
+    build:
+      context: ./middleware
+      dockerfile: Dockerfile
     restart: unless-stopped
 
   web_scraper:
@@ -29,15 +26,6 @@ services:
   manager_ollama:
     build: ./manager_ollama
     hostname: manager_ollama
-    networks:
-      - net
-    restart: unless-stopped
-
-  db:
-    image: mongo:4.4.6
-    hostname: db
-    volumes:
-      - cache:/data/db
     networks:
       - net
     restart: unless-stopped
