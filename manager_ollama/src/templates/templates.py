@@ -25,3 +25,8 @@ def get_gpu_vendors_extended():
     with open("templates/gpu_vendors_extended.txt", "r") as f:
         gpu_vendors = f.read()
         return gpu_vendors
+
+def get_gpu_vendors_json():
+    with open("templates/gpu_vendors.json", "r") as f:
+        gpu_vendors = f.read()
+        return gpu_vendors
