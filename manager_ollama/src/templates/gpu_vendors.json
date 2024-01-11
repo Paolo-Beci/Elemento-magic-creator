@@ -1,0 +1,242 @@
+[
+  {
+    "name": "GeForce RTX 3080",
+    "vendor": "10DE",
+    "model": "2206"
+  },
+  {
+    "name": "GeForce RTX 3070",
+    "vendor": "10DE",
+    "model": "2204"
+  },
+  {
+    "name": "GeForce RTX 3090",
+    "vendor": "10DE",
+    "model": "2204"
+  },
+  {
+    "name": "Radeon RX 6800 XT",
+    "vendor": "1002",
+    "model": "73BF"
+  },
+  {
+    "name": "Radeon RX 6900 XT",
+    "vendor": "1002",
+    "model": "73BF"
+  },
+  {
+    "name": "GeForce RTX 3060 Ti",
+    "vendor": "10DE",
+    "model": "2484"
+  },
+  {
+    "name": "GeForce GTX 1660 Ti",
+    "vendor": "10DE",
+    "model": "2191"
+  },
+  {
+    "name": "Radeon RX 6700 XT",
+    "vendor": "1002",
+    "model": "73FF"
+  },
+  {
+    "name": "GeForce GTX 1660 Super",
+    "vendor": "10DE",
+    "model": "21C4"
+  },
+  {
+    "name": "Radeon RX 6600 XT",
+    "vendor": "1002",
+    "model": "73FF"
+  },
+  {
+    "name": "GeForce GTX 1650 Super",
+    "vendor": "10DE",
+    "model": "2187"
+  },
+  {
+    "name": "Radeon RX 5700 XT",
+    "vendor": "1002",
+    "model": "731F"
+  },
+  {
+    "name": "GeForce RTX 3060",
+    "vendor": "10DE",
+    "model": "2484"
+  },
+  {
+    "name": "Radeon RX 5600 XT",
+    "vendor": "1002",
+    "model": "731F"
+  },
+  {
+    "name": "GeForce GTX 1650",
+    "vendor": "10DE",
+    "model": "2182"
+  },
+  {
+    "name": "GeForce RTX 3050 Ti",
+    "vendor": "10DE",
+    "model": "25C9"
+  },
+  {
+    "name": "Radeon RX 5500 XT",
+    "vendor": "1002",
+    "model": "7340"
+  },
+  {
+    "name": "GeForce GTX 1660",
+    "vendor": "10DE",
+    "model": "2184"
+  },
+  {
+    "name": "Radeon RX 580",
+    "vendor": "1002",
+    "model": "67DF"
+  },
+  {
+    "name": "GeForce GTX 1650 GDDR6",
+    "vendor": "10DE",
+    "model": "1F95"
+  },
+  {
+    "name": "Radeon RX 6700",
+    "vendor": "1002",
+    "model": "73FF"
+  },
+  {
+    "name": "GeForce RTX 3050",
+    "vendor": "10DE",
+    "model": "25C4"
+  },
+  {
+    "name": "Radeon RX 5600",
+    "vendor": "1002",
+    "model": "7340"
+  },
+  {
+    "name": "GeForce GTX 1660 Super",
+    "vendor": "10DE",
+    "model": "2184"
+  },
+  {
+    "name": "Radeon RX 5500",
+    "vendor": "1002",
+    "model": "7340"
+  },
+  {
+    "name": "GeForce GTX 1650 GDDR5",
+    "vendor": "10DE",
+    "model": "2182"
+  },
+  {
+    "name": "Radeon RX 590",
+    "vendor": "1002",
+    "model": "67DF"
+  },
+  {
+    "name": "GeForce GTX 1650 DDR3",
+    "vendor": "10DE",
+    "model": "1F91"
+  },
+  {
+    "name": "Radeon RX 560",
+    "vendor": "1002",
+    "model": "67FF"
+  },
+  {
+    "name": "GeForce GT 1030",
+    "vendor": "10DE",
+    "model": "1D01"
+  },
+  {
+    "name": "GeForce GTX 1080 Ti",
+    "vendor": "10DE",
+    "model": "1B06"
+  },
+  {
+    "name": "GeForce GTX 1080",
+    "vendor": "10DE",
+    "model": "1B80"
+  },
+  {
+    "name": "GeForce GTX 1070 Ti",
+    "vendor": "10DE",
+    "model": "1B82"
+  },
+  {
+    "name": "GeForce GTX 1070",
+    "vendor": "10DE",
+    "model": "1B81"
+  },
+  {
+    "name": "GeForce GTX 1060 6GB",
+    "vendor": "10DE",
+    "model": "1B83"
+  },
+  {
+    "name": "GeForce GTX 1060 3GB",
+    "vendor": "10DE",
+    "model": "1C02"
+  },
+  {
+    "name": "GeForce GTX 1050 Ti",
+    "vendor": "10DE",
+    "model": "1C82"
+  },
+  {
+    "name": "GeForce GTX 1050",
+    "vendor": "10DE",
+    "model": "1C81"
+  },
+  {
+    "name": "GeForce GTX 980",
+    "vendor": "10DE",
+    "model": "13C0"
+  },
+  {
+    "name": "GeForce GTX 980 Ti",
+    "vendor": "10DE",
+    "model": "17C8"
+  },
+  {
+    "name": "GeForce GTX 970",
+    "vendor": "10DE",
+    "model": "13C2"
+  },
+  {
+    "name": "GeForce GTX 960",
+    "vendor": "10DE",
+    "model": "1401"
+  },
+  {
+    "name": "GeForce GTX 950",
+    "vendor": "10DE",
+    "model": "1402"
+  },
+  {
+    "name": "Radeon R9 390X",
+    "vendor": "1002",
+    "model": "67B0"
+  },
+  {
+    "name": "Radeon R9 390",
+    "vendor": "1002",
+    "model": "67B1"
+  },
+  {
+    "name": "Radeon R9 380X",
+    "vendor": "1002",
+    "model": "6938"
+  },
+  {
+    "name": "Radeon R9 380",
+    "vendor": "1002",
+    "model": "6939"
+  },
+  {
+    "name": "Radeon R9 370",
+    "vendor": "1002",
+    "model": "6658"
+  }
+]

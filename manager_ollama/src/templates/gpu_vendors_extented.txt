@@ -1,0 +1,857 @@
+name: AMD FirePro 2270 (ATI FireGL), vendor: 1002, model: 68F2
+name: AMD FirePro 2270, vendor: 1002, model: 68F2
+name: AMD FirePro 2460, vendor: 1002, model: 68F1
+name: AMD FirePro A300 Series (FireGL V) Graphics Adapter, vendor: 1002, model: 9906
+name: AMD FirePro A300 Series (FireGL V) Graphics Adapter, vendor: 1002, model: 9906
+name: AMD FirePro R5000 (FireGL V), vendor: 1002, model: 6809
+name: AMD FirePro S10000 (FireGL V), vendor: 1002, model: 678A
+name: AMD FirePro S7000 (FireGL V), vendor: 1002, model: 6808
+name: AMD FirePro S9000 (FireGL V), vendor: 1002, model: 678A
+name: AMD FirePro V3900 (ATI FireGL), vendor: 1002, model: 674A
+name: AMD FirePro V4900 (FireGL V), vendor: 1002, model: 6749
+name: AMD FirePro V5900 (FireGL V), vendor: 1002, model: 6707
+name: AMD FirePro V7900 (FireGL V), vendor: 1002, model: 6704
+name: AMD FirePro W5000 (FireGL V), vendor: 1002, model: 6809
+name: AMD FirePro W600, vendor: 1002, model: 6828
+name: AMD FirePro W7000 (FireGL V), vendor: 1002, model: 6808
+name: AMD FirePro W8000 (FireGL V), vendor: 1002, model: 678A
+name: AMD FirePro W9000 (FireGL V), vendor: 1002, model: 6780
+name: AMD FireStream 9350, vendor: 1002, model: 688D
+name: AMD FireStream 9350, vendor: 1002, model: 688D
+name: AMD FireStream 9370, vendor: 1002, model: 688C
+name: AMD FireStream 9370, vendor: 1002, model: 688C
+name: AMD Mobility Radeon HD 5000 Series, vendor: 1002, model: 68C1
+name: AMD Mobility Radeon HD 5000 Series, vendor: 1002, model: 68E0
+name: AMD Mobility Radeon HD 5000 Series, vendor: 1002, model: 68E1
+name: AMD Mobility Radeon HD 5000, vendor: 1002, model: 68C0
+name: AMD Mobility Radeon HD 5570, vendor: 1002, model: 68C7
+name: AMD Mobility Radeon HD 5800 Series, vendor: 1002, model: 68A0
+name: AMD Mobility Radeon HD 5800 Series, vendor: 1002, model: 68A1
+name: AMD Radeon (TM) HD 8500M/8700M, vendor: 1002, model: 6601
+name: AMD Radeon (TM) HD8530M, vendor: 1002, model: 6607
+name: AMD Radeon 6600M and 6700M Series, vendor: 1002, model: 6741
+name: AMD Radeon 6600M and 6700M Series, vendor: 1002, model: 6741
+name: AMD Radeon E6460, vendor: 1002, model: 6763
+name: AMD Radeon E6460, vendor: 1002, model: 6763
+name: AMD Radeon E6760, vendor: 1002, model: 6743
+name: AMD Radeon E8860, vendor: 1002, model: 6822
+name: AMD Radeon HD 5450, vendor: 1002, model: 68E4
+name: AMD Radeon HD 5450, vendor: 1002, model: 68F9
+name: AMD Radeon HD 5500 Series, vendor: 1002, model: 675F
+name: AMD Radeon HD 5500 Series, vendor: 1002, model: 68DA
+name: AMD Radeon HD 5500 Series, vendor: 1002, model: 675F
+name: AMD Radeon HD 5570, vendor: 1002, model: 6742
+name: AMD Radeon HD 5570, vendor: 1002, model: 68D9
+name: AMD Radeon HD 5600/5700, vendor: 1002, model: 68B9
+name: AMD Radeon HD 5670, vendor: 1002, model: 68D8
+name: AMD Radeon HD 5700 Series, vendor: 1002, model: 68B8
+name: AMD Radeon HD 5700 Series, vendor: 1002, model: 68BE
+name: AMD Radeon HD 5800 Series, vendor: 1002, model: 6898
+name: AMD Radeon HD 5800 Series, vendor: 1002, model: 6899
+name: AMD Radeon HD 5800 Series, vendor: 1002, model: 689E
+name: AMD Radeon HD 5900 Series, vendor: 1002, model: 689C
+name: AMD Radeon HD 6230, vendor: 1002, model: 68E1
+name: AMD Radeon HD 6250 Graphics, vendor: 1002, model: 9803
+name: AMD Radeon HD 6250 Graphics, vendor: 1002, model: 9804
+name: AMD Radeon HD 6250 Graphics, vendor: 1002, model: 9805
+name: AMD Radeon HD 6290 Graphics, vendor: 1002, model: 9807
+name: AMD Radeon HD 6300M Series, vendor: 1002, model: 68E4
+name: AMD Radeon HD 6300M Series, vendor: 1002, model: 68E5
+name: AMD Radeon HD 6300M Series, vendor: 1002, model: 68E5
+name: AMD Radeon HD 6300M Series, vendor: 1002, model: 68E4
+name: AMD Radeon HD 6310 Graphics, vendor: 1002, model: 9802
+name: AMD Radeon HD 6310 Graphics, vendor: 1002, model: 9803
+name: AMD Radeon HD 6320 Graphics, vendor: 1002, model: 9806
+name: AMD Radeon HD 6350, vendor: 1002, model: 68F9
+name: AMD Radeon HD 6350A Graphics, vendor: 1002, model: 68F9
+name: AMD Radeon HD 6370D, vendor: 1002, model: 9642
+name: AMD Radeon HD 6380G, vendor: 1002, model: 9643
+name: AMD Radeon HD 6400 Series, vendor: 1002, model: 6770
+name: AMD Radeon HD 6400 Series, vendor: 1002, model: 6770
+name: AMD Radeon HD 6400M Series, vendor: 1002, model: 6760
+name: AMD Radeon HD 6400M Series, vendor: 1002, model: 6760
+name: AMD Radeon HD 6410D, vendor: 1002, model: 9644
+name: AMD Radeon HD 6410D, vendor: 1002, model: 9645
+name: AMD Radeon HD 6430M, vendor: 1002, model: 6761
+name: AMD Radeon HD 6430M, vendor: 1002, model: 6761
+name: AMD Radeon HD 6450, vendor: 1002, model: 6761
+name: AMD Radeon HD 6450, vendor: 1002, model: 6779
+name: AMD RADEON HD 6450, vendor: 1002, model: 6779
+name: AMD Radeon HD 6450, vendor: 1002, model: 6779
+name: AMD Radeon HD 6480G, vendor: 1002, model: 9648
+name: AMD Radeon HD 6500 Series, vendor: 1002, model: 6742
+name: AMD Radeon HD 6500 series, vendor: 1002, model: 6750
+name: AMD Radeon HD 6500M/5600/5700 Series, vendor: 1002, model: 68C1
+name: AMD Radeon HD 6510 Series, vendor: 1002, model: 675F
+name: AMD Radeon HD 6520G, vendor: 1002, model: 9647
+name: AMD Radeon HD 6530 Series, vendor: 1002, model: 675F
+name: AMD Radeon HD 6530D, vendor: 1002, model: 964A
+name: AMD Radeon HD 6550D, vendor: 1002, model: 9640
+name: AMD Radeon HD 6570 Graphics, vendor: 1002, model: 6759
+name: AMD Radeon HD 6570, vendor: 1002, model: 6759
+name: AMD Radeon HD 6570, vendor: 1002, model: 6837
+name: AMD Radeon HD 6570M/5700 Series, vendor: 1002, model: 68C0
+name: AMD Radeon HD 6600A Series, vendor: 1002, model: 6750
+name: AMD Radeon HD 6600A Series, vendor: 1002, model: 6750
+name: AMD Radeon HD 6600M Series, vendor: 1002, model: 6741
+name: AMD Radeon HD 6620G, vendor: 1002, model: 9641
+name: AMD Radeon HD 6625M Graphics, vendor: 1002, model: 6742
+name: AMD Radeon HD 6650M, vendor: 1002, model: 6741
+name: AMD Radeon HD 6670, vendor: 1002, model: 6758
+name: AMD Radeon HD 6670, vendor: 1002, model: 6758
+name: AMD Radeon HD 6700 Green Edition, vendor: 1002, model: 68BF
+name: AMD Radeon HD 6700 Series, vendor: 1002, model: 673E
+name: AMD Radeon HD 6700 Series, vendor: 1002, model: 68B8
+name: AMD Radeon HD 6700 Series, vendor: 1002, model: 68BA
+name: AMD Radeon HD 6700 Series, vendor: 1002, model: 68BF
+name: AMD Radeon HD 6700 Series, vendor: 1002, model: 68BA
+name: AMD Radeon HD 6700 Series, vendor: 1002, model: 68BF
+name: AMD Radeon HD 6700 Series, vendor: 1002, model: 673E
+name: AMD Radeon HD 6700M Series, vendor: 1002, model: 6740
+name: AMD Radeon HD 6700M Series, vendor: 1002, model: 6740
+name: AMD Radeon HD 6750 Graphics, vendor: 1002, model: 68BE
+name: AMD Radeon HD 6750, vendor: 1002, model: 68BE
+name: AMD Radeon HD 6750, vendor: 1002, model: 68BF
+name: AMD Radeon HD 6800 Series, vendor: 1002, model: 6738
+name: AMD Radeon HD 6800 Series, vendor: 1002, model: 6739
+name: AMD Radeon HD 6800 Series, vendor: 1002, model: 6898
+name: AMD Radeon HD 6800 Series, vendor: 1002, model: 689B
+name: AMD Radeon HD 6800 Series, vendor: 1002, model: 689B
+name: AMD Radeon HD 6800 Series, vendor: 1002, model: 6738
+name: AMD Radeon HD 6800 Series, vendor: 1002, model: 6739
+name: AMD Radeon HD 6800M Series, vendor: 1002, model: 68A8
+name: AMD Radeon HD 6800M Series, vendor: 1002, model: 68A8
+name: AMD Radeon HD 6850 X2, vendor: 1002, model: 6739
+name: AMD Radeon HD 6850, vendor: 1002, model: 6899
+name: AMD Radeon HD 6870 X2, vendor: 1002, model: 6738
+name: AMD Radeon HD 6870, vendor: 1002, model: 6898
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 6718
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 6719
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 671D
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 671F
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 6718
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 6719
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 671D
+name: AMD Radeon HD 6900 Series, vendor: 1002, model: 671F
+name: AMD Radeon HD 6900M Series, vendor: 1002, model: 6720
+name: AMD Radeon HD 6900M Series, vendor: 1002, model: 6720
+name: AMD Radeon HD 7000 series, vendor: 1002, model: 6778
+name: AMD Radeon HD 7000 series, vendor: 1002, model: 6778
+name: AMD Radeon HD 7000M Series, vendor: 1002, model: 6842
+name: AMD Radeon HD 7000M Series, vendor: 1002, model: 6842
+name: AMD Radeon HD 7290 Graphics, vendor: 1002, model: 980A
+name: AMD Radeon HD 7300 Series, vendor: 1002, model: 68FA
+name: AMD Radeon HD 7310 Graphics, vendor: 1002, model: 9809
+name: AMD Radeon HD 7310 Graphics, vendor: 1002, model: 9809
+name: AMD Radeon HD 7340 Graphics, vendor: 1002, model: 9808
+name: AMD Radeon HD 7340 Graphics, vendor: 1002, model: 9808
+name: AMD Radeon HD 7350, vendor: 1002, model: 68E1
+name: AMD Radeon HD 7350, vendor: 1002, model: 68E4
+name: AMD Radeon HD 7350, vendor: 1002, model: 68E5
+name: AMD Radeon HD 7350, vendor: 1002, model: 68F9
+name: AMD Radeon HD 7350, vendor: 1002, model: 68FA
+name: AMD Radeon HD 7400 Series, vendor: 1002, model: 677B
+name: AMD Radeon HD 7400 Series, vendor: 1002, model: 6858
+name: AMD Radeon HD 7400 Series, vendor: 1002, model: 6859
+name: AMD Radeon HD 7400 Series, vendor: 1002, model: 677B
+name: AMD Radeon HD 7400A Series, vendor: 1002, model: 6772
+name: AMD Radeon HD 7400G, vendor: 1002, model: 9994
+name: AMD Radeon HD 7400G, vendor: 1002, model: 99A4
+name: AMD Radeon HD 7400M Series, vendor: 1002, model: 6760
+name: AMD Radeon HD 7420G, vendor: 1002, model: 9992
+name: AMD Radeon HD 7420G, vendor: 1002, model: 9992
+name: AMD Radeon HD 7420G, vendor: 1002, model: 99A2
+name: AMD Radeon HD 7450, vendor: 1002, model: 6779
+name: AMD RADEON HD 7450, vendor: 1002, model: 6779
+name: AMD Radeon HD 7450, vendor: 1002, model: 677B
+name: AMD Radeon HD 7450M, vendor: 1002, model: 6760
+name: AMD Radeon HD 7470M, vendor: 1002, model: 6760
+name: AMD Radeon HD 7480D, vendor: 1002, model: 9993
+name: AMD Radeon HD 7500 Series, vendor: 1002, model: 675D
+name: AMD Radeon HD 7500/7600 Series, vendor: 1002, model: 6742
+name: AMD Radeon HD 7500/7600 Series, vendor: 1002, model: 6742
+name: AMD Radeon HD 7500/7600 Series, vendor: 1002, model: 6742
+name: AMD Radeon HD 7500G, vendor: 1002, model: 990A
+name: AMD Radeon HD 7500G, vendor: 1002, model: 9919
+name: AMD Radeon HD 7500M/7600M Series, vendor: 1002, model: 6841
+name: AMD Radeon HD 7500M/7600M Series, vendor: 1002, model: 6841
+name: AMD Radeon HD 7510 Series, vendor: 1002, model: 675F
+name: AMD Radeon HD 7510, vendor: 1002, model: 675F
+name: AMD Radeon HD 7520G, vendor: 1002, model: 9990
+name: AMD Radeon HD 7520G, vendor: 1002, model: 99A0
+name: AMD Radeon HD 7540D, vendor: 1002, model: 9991
+name: AMD Radeon HD 7560D, vendor: 1002, model: 9904
+name: AMD Radeon HD 7570 Series, vendor: 1002, model: 6759
+name: AMD Radeon HD 7570, vendor: 1002, model: 6759
+name: AMD Radeon HD 7570, vendor: 1002, model: 675D
+name: AMD Radeon HD 7570, vendor: 1002, model: 675F
+name: AMD Radeon HD 7570, vendor: 1002, model: 68D9
+name: AMD Radeon HD 7570, vendor: 1002, model: 68DA
+name: AMD Radeon HD 7570M, vendor: 1002, model: 6841
+name: AMD Radeon HD 7600 Series, vendor: 1002, model: 675B
+name: AMD Radeon HD 7600 Series, vendor: 1002, model: 675B
+name: AMD Radeon HD 7600A Series, vendor: 1002, model: 6751
+name: AMD Radeon HD 7600G, vendor: 1002, model: 9908
+name: AMD Radeon HD 7600G, vendor: 1002, model: 9918
+name: AMD Radeon HD 7600M Series, vendor: 1002, model: 6840
+name: AMD Radeon HD 7600M Series, vendor: 1002, model: 6840
+name: AMD Radeon HD 7620G, vendor: 1002, model: 9907
+name: AMD Radeon HD 7620G, vendor: 1002, model: 9917
+name: AMD Radeon HD 7640G, vendor: 1002, model: 9903
+name: AMD Radeon HD 7640G, vendor: 1002, model: 9913
+name: AMD Radeon HD 7650M, vendor: 1002, model: 6741
+name: AMD Radeon HD 7650M, vendor: 1002, model: 6841
+name: AMD Radeon HD 7660D, vendor: 1002, model: 9901
+name: AMD Radeon HD 7660G, vendor: 1002, model: 9900
+name: AMD Radeon HD 7660G, vendor: 1002, model: 9910
+name: AMD Radeon HD 7670, vendor: 1002, model: 6758
+name: AMD Radeon HD 7670, vendor: 1002, model: 675B
+name: AMD Radeon HD 7670M, vendor: 1002, model: 6843
+name: AMD Radeon HD 7670M, vendor: 1002, model: 6843
+name: AMD Radeon HD 7700 Series, vendor: 1002, model: 665C
+name: AMD Radeon HD 7700 Series, vendor: 1002, model: 6837
+name: AMD Radeon HD 7700 Series, vendor: 1002, model: 683D
+name: AMD Radeon HD 7700 Series, vendor: 1002, model: 683F
+name: AMD Radeon HD 7700 Series, vendor: 1002, model: 683D
+name: AMD Radeon HD 7700 Series, vendor: 1002, model: 683F
+name: AMD Radeon HD 7700M Series, vendor: 1002, model: 682D
+name: AMD Radeon HD 7700M Series, vendor: 1002, model: 682F
+name: AMD Radeon HD 7700M Series, vendor: 1002, model: 682D
+name: AMD Radeon HD 7700M Series, vendor: 1002, model: 682F
+name: AMD Radeon HD 7720, vendor: 1002, model: 673E
+name: AMD Radeon HD 7800 Series, vendor: 1002, model: 679E
+name: AMD Radeon HD 7800 Series, vendor: 1002, model: 6818
+name: AMD Radeon HD 7800 Series, vendor: 1002, model: 6819
+name: AMD Radeon HD 7800 Series, vendor: 1002, model: 6818
+name: AMD Radeon HD 7800 Series, vendor: 1002, model: 6819
+name: AMD Radeon HD 7800M Series, vendor: 1002, model: 6825
+name: AMD Radeon HD 7800M Series, vendor: 1002, model: 6827
+name: AMD Radeon HD 7800M Series, vendor: 1002, model: 6825
+name: AMD Radeon HD 7800M Series, vendor: 1002, model: 6827
+name: AMD Radeon HD 7900 Series, vendor: 1002, model: 6798
+name: AMD Radeon HD 7900 Series, vendor: 1002, model: 679A
+name: AMD Radeon HD 7900 Series, vendor: 1002, model: 679B
+name: AMD Radeon HD 7900 Series, vendor: 1002, model: 6798
+name: AMD Radeon HD 7900 Series, vendor: 1002, model: 679A
+name: AMD Radeon HD 7970M, vendor: 1002, model: 6800
+name: AMD Radeon HD 7970M, vendor: 1002, model: 6800
+name: AMD Radeon HD 8180, vendor: 1002, model: 9839
+name: AMD Radeon HD 8210, vendor: 1002, model: 9834
+name: AMD Radeon HD 8240, vendor: 1002, model: 9838
+name: AMD Radeon HD 8250, vendor: 1002, model: 983D
+name: AMD Radeon HD 8280, vendor: 1002, model: 9836
+name: AMD Radeon HD 8310G, vendor: 1002, model: 999B
+name: AMD Radeon HD 8330, vendor: 1002, model: 9832
+name: AMD Radeon HD 8350, vendor: 1002, model: 68E1
+name: AMD Radeon HD 8350, vendor: 1002, model: 68E5
+name: AMD Radeon HD 8350, vendor: 1002, model: 68F9
+name: AMD Radeon HD 8350, vendor: 1002, model: 68FA
+name: AMD Radeon HD 8350G, vendor: 1002, model: 9997
+name: AMD Radeon HD 8370D, vendor: 1002, model: 9998
+name: AMD Radeon HD 8400, vendor: 1002, model: 9830
+name: AMD Radeon HD 8410G, vendor: 1002, model: 999A
+name: AMD Radeon HD 8450, vendor: 1002, model: 6779
+name: AMD Radeon HD 8450G, vendor: 1002, model: 9995
+name: AMD Radeon HD 8470 Graphics, vendor: 1002, model: 6778
+name: AMD Radeon HD 8470, vendor: 1002, model: 6778
+name: AMD Radeon HD 8470D, vendor: 1002, model: 9996
+name: AMD Radeon HD 8500M Series, vendor: 1002, model: 6663
+name: AMD Radeon HD 8500M, vendor: 1002, model: 666F
+name: AMD Radeon HD 8510, vendor: 1002, model: 6742
+name: AMD Radeon HD 8510, vendor: 1002, model: 675F
+name: AMD Radeon HD 8510G, vendor: 1002, model: 9999
+name: AMD Radeon HD 8550, vendor: 1002, model: 675D
+name: AMD Radeon HD 8550D, vendor: 1002, model: 999D
+name: AMD Radeon HD 8550G, vendor: 1002, model: 990D
+name: AMD Radeon HD 8570 Graphics, vendor: 1002, model: 6611
+name: AMD Radeon HD 8570, vendor: 1002, model: 6611
+name: AMD Radeon HD 8570, vendor: 1002, model: 6759
+name: AMD Radeon HD 8570D, vendor: 1002, model: 990E
+name: AMD Radeon HD 8600/8700M, vendor: 1002, model: 6600
+name: AMD Radeon HD 8600M Series, vendor: 1002, model: 6660
+name: AMD Radeon HD 8610G, vendor: 1002, model: 990F
+name: AMD Radeon HD 8650D, vendor: 1002, model: 999C
+name: AMD Radeon HD 8650G, vendor: 1002, model: 990B
+name: AMD Radeon HD 8670 Graphics, vendor: 1002, model: 6610
+name: AMD Radeon HD 8670, vendor: 1002, model: 6610
+name: AMD Radeon HD 8670D, vendor: 1002, model: 990C
+name: AMD Radeon HD 8760, vendor: 1002, model: 683D
+name: AMD Radeon HD 8770, vendor: 1002, model: 665C
+name: AMD Radeon HD 8790M, vendor: 1002, model: 6606
+name: AMD Radeon HD 8800M Series, vendor: 1002, model: 6820
+name: AMD Radeon HD 8800M Series, vendor: 1002, model: 6821
+name: AMD Radeon HD 8800M Series, vendor: 1002, model: 6823
+name: AMD Radeon HD 8800M Series, vendor: 1002, model: 682B
+name: AMD Radeon HD 8870, vendor: 1002, model: 6818
+name: AMD Radeon HD 8950, vendor: 1002, model: 6640
+name: AMD Radeon HD 8950, vendor: 1002, model: 679A
+name: AMD Radeon HD 8970 Graphics, vendor: 1002, model: 6798
+name: AMD Radeon HD 8990, vendor: 1002, model: 679B
+name: AMD RADEON HD7450, vendor: 1002, model: 6779
+name: AMD Radeon HD7500/7600 Series, vendor: 1002, model: 6742
+name: AMD Radeon HD7570, vendor: 1002, model: 6742
+name: AMD Radeon HD7570, vendor: 1002, model: 6759
+name: AMD Radeon HD7670, vendor: 1002, model: 6758
+name: AMD RADEON HD8450, vendor: 1002, model: 6779
+name: AMD Radeon HD8550, vendor: 1002, model: 6759
+name: AMD Radeon HD8570, vendor: 1002, model: 6742
+name: AMD Radeon HD8570, vendor: 1002, model: 6759
+name: AMD Radeon HD8730, vendor: 1002, model: 6837
+name: AMD Radeon R5 230, vendor: 1002, model: 6779
+name: AMD Radeon R5 235, vendor: 1002, model: 6778
+name: AMD Radeon R5 235X, vendor: 1002, model: 6771
+name: AMD Radeon R5 M200 Series, vendor: 1002, model: 6664
+name: AMD Radeon R5 M200 Series, vendor: 1002, model: 6667
+name: AMD Radeon R5 M230 Series, vendor: 1002, model: 6665
+name: AMD Radeon R5 M240, vendor: 1002, model: 6607
+name: AMD Radeon R7 200 Series, vendor: 1002, model: 6610
+name: AMD Radeon R7 200 Series, vendor: 1002, model: 6611
+name: AMD Radeon R7 200 Series, vendor: 1002, model: 6613
+name: AMD Radeon R7 200 Series, vendor: 1002, model: 6658
+name: AMD Radeon R7 200 Series, vendor: 1002, model: 665D
+name: AMD Radeon R7 240, vendor: 1002, model: 6611
+name: AMD Radeon R7 M260 Series, vendor: 1002, model: 6605
+name: AMD Radeon R7 M265 Series, vendor: 1002, model: 6604
+name: AMD Radeon R7 Series / HD 9000 Series, vendor: 1002, model: 6835
+name: AMD Radeon R9 200 Series, vendor: 1002, model: 6798
+name: AMD Radeon R9 200 Series, vendor: 1002, model: 67B0
+name: AMD Radeon R9 200 Series, vendor: 1002, model: 67B1
+name: AMD Radeon R9 200 Series, vendor: 1002, model: 6810
+name: AMD Radeon R9 200 Series, vendor: 1002, model: 6811
+name: AMD Radeon R9 255, vendor: 1002, model: 6835
+name: AMD Radeon R9 260, vendor: 1002, model: 665C
+name: AMD Radeon R9 290, vendor: 1002, model: 67B1
+name: AMD Radeon R9 290X, vendor: 1002, model: 67B0
+name: AMD Radeon(TM) HD 6380G, vendor: 1002, model: 9643
+name: AMD Radeon(TM) HD 6480G, vendor: 1002, model: 9648
+name: AMD Radeon(TM) HD 6480G, vendor: 1002, model: 9649
+name: AMD Radeon(TM) HD 6520G, vendor: 1002, model: 9647
+name: AMD Radeon(TM) HD 6620G, vendor: 1002, model: 9641
+name: AMD Radeon(TM) HD 6630M, vendor: 1002, model: 6741
+name: AMD Radeon(TM) HD 6650M, vendor: 1002, model: 6740
+name: AMD Radeon(TM) HD 7450A Graphics, vendor: 1002, model: 6779
+name: AMD Radeon(TM) HD 7670M, vendor: 1002, model: 6740
+name: AMD Radeon(TM) HD 8210E, vendor: 1002, model: 9835
+name: AMD Radeon(TM) HD 8280E, vendor: 1002, model: 9837
+name: AMD Radeon(TM) HD 8330E, vendor: 1002, model: 9833
+name: AMD Radeon(TM) HD 8400E, vendor: 1002, model: 9831
+name: AMD Radeon(TM) HD8490, vendor: 1002, model: 6771
+name: AMD Radeon(TM) HD8970M, vendor: 1002, model: 6801
+name: AMD Radeon(TM) R5 240, vendor: 1002, model: 6611
+name: AMD Radeon(TM) R5 Graphics, vendor: 1002, model: 1316
+name: AMD Radeon(TM) R7 250, vendor: 1002, model: 6610
+name: AMD Radeon(TM) R7 Graphics, vendor: 1002, model: 130F
+name: AMD Radeon(TM) R7 Graphics, vendor: 1002, model: 1313
+name: ASUS ARES, vendor: 1002, model: 689C
+name: ASUS ARES2, vendor: 1002, model: 6798
+name: ASUS EAH5450 Series, vendor: 1002, model: 68E1
+name: ASUS EAH5870 Series, vendor: 1002, model: 689C
+name: ATI  Radeon HD 5000 Series, vendor: 1002, model: 68C1
+name: ATI  Radeon HD 5400 Series, vendor: 1002, model: 68E0
+name: ATI  Radeon HD 6350, vendor: 1002, model: 68E1
+name: ATI FirePro (FireGL) Graphics Adapter, vendor: 1002, model: 68F1
+name: ATI FirePro 3800 (FireGL) Graphics Adapter, vendor: 1002, model: 68C9
+name: ATI FirePro 3800 (FireGL) Graphics Adapter, vendor: 1002, model: 68C9
+name: ATI FirePro V (FireGL V) Graphics Adapter, vendor: 1002, model: 6704
+name: ATI FirePro V (FireGL V) Graphics Adapter, vendor: 1002, model: 6707
+name: ATI FirePro V (FireGL V) Graphics Adapter, vendor: 1002, model: 6749
+name: ATI FirePro V (FireGL V) Graphics Adapter, vendor: 1002, model: 674A
+name: ATI FirePro V (FireGL V) Graphics Adapter, vendor: 1002, model: 6780
+name: ATI FirePro V (FireGL V) Graphics Adapter, vendor: 1002, model: 678A
+name: ATI FirePro V(FireGL V) Graphics Adapter, vendor: 1002, model: 6808
+name: ATI FirePro V(FireGL V) Graphics Adapter, vendor: 1002, model: 6809
+name: ATI FirePro V(FireGL V) Graphics Adapter, vendor: 1002, model: 6828
+name: ATI FirePro V3800 (FireGL V), vendor: 1002, model: 68C9
+name: ATI FirePro V4800 (FireGL V), vendor: 1002, model: 68C8
+name: ATI FirePro V4800 (FireGL) Graphics Adapter, vendor: 1002, model: 68C8
+name: ATI FirePro V4800 (FireGL) Graphics Adapter, vendor: 1002, model: 68C8
+name: ATI FirePro V5800 (FireGL V), vendor: 1002, model: 68A9
+name: ATI FirePro V5800 (FireGL) Graphics Adapter, vendor: 1002, model: 68A9
+name: ATI FirePro V7800 (FireGL V), vendor: 1002, model: 6889
+name: ATI FirePro V7800 (FireGL) Graphics Adapter, vendor: 1002, model: 6889
+name: ATI FirePro V7800 (FireGL) Graphics Adapter, vendor: 1002, model: 6889
+name: ATI FirePro V7800P (FireGL V), vendor: 1002, model: 6889
+name: ATI FirePro V8800 (FireGL V), vendor: 1002, model: 6888
+name: ATI FirePro V8800 (FireGL) Graphics Adapter, vendor: 1002, model: 6888
+name: ATI FirePro V8800 (FireGL) Graphics Adapter, vendor: 1002, model: 6888
+name: ATI FirePro V9800 (FireGL V), vendor: 1002, model: 688A
+name: ATI FirePro V9800 (FireGL) Graphics Adapter, vendor: 1002, model: 688A
+name: ATI FirePro V9800P (FireGL V), vendor: 1002, model: 688A
+name: ATI Mobility Radeon Graphics, vendor: 1002, model: 68E4
+name: ATI Mobility Radeon Graphics, vendor: 1002, model: 68E5
+name: ATI Mobility Radeon HD 5000 Series, vendor: 1002, model: 68C0
+name: ATI Mobility Radeon HD 5000 Series, vendor: 1002, model: 68C1
+name: ATI Mobility Radeon HD 5000 Series, vendor: 1002, model: 68E0
+name: ATI Mobility Radeon HD 5000 Series, vendor: 1002, model: 68E1
+name: ATI Mobility Radeon HD 5000 Series, vendor: 1002, model: 68E1
+name: ATI Mobility Radeon HD 5000, vendor: 1002, model: 68C0
+name: ATI Mobility Radeon HD 5400 Series, vendor: 1002, model: 68E0
+name: ATI Mobility Radeon HD 5400 Series, vendor: 1002, model: 68E1
+name: ATI Mobility Radeon HD 5450, vendor: 1002, model: 68E0
+name: ATI Mobility Radeon HD 5470, vendor: 1002, model: 68E0
+name: ATI Mobility Radeon HD 5570, vendor: 1002, model: 68C7
+name: ATI Mobility Radeon HD 5570, vendor: 1002, model: 68C7
+name: ATI Mobility Radeon HD 5650, vendor: 1002, model: 68C1
+name: ATI Mobility Radeon HD 5800 Series, vendor: 1002, model: 68A0
+name: ATI Mobility Radeon HD 5800 Series, vendor: 1002, model: 68A1
+name: ATI Mobility Radeon HD 5800 Series, vendor: 1002, model: 68A0
+name: ATI Mobility Radeon HD 5800 Series, vendor: 1002, model: 68A1
+name: ATI Mobility Radeon HD 6000 series, vendor: 1002, model: 6740
+name: ATI Mobility Radeon HD 6000 series, vendor: 1002, model: 6741
+name: ATI Mobility Radeon HD 6000 series, vendor: 1002, model: 6842
+name: ATI Mobility Radeon HD 6370, vendor: 1002, model: 68E4
+name: ATI Mobility Radeon HD 6550, vendor: 1002, model: 68C1
+name: ATI Mobility Radeon HD 6570, vendor: 1002, model: 68C0
+name: ATI Radeon HD 5400 Series, vendor: 1002, model: 68E1
+name: ATI Radeon HD 5400 Series, vendor: 1002, model: 68E5
+name: ATI Radeon HD 5450, vendor: 1002, model: 68E0
+name: ATI Radeon HD 5450, vendor: 1002, model: 68F9
+name: ATI Radeon HD 5450, vendor: 1002, model: 68F9
+name: ATI Radeon HD 5470, vendor: 1002, model: 68E1
+name: ATI Radeon HD 5470, vendor: 1002, model: 68F9
+name: ATI Radeon HD 5490, vendor: 1002, model: 68F9
+name: ATI Radeon HD 5500 Series, vendor: 1002, model: 68DA
+name: ATI Radeon HD 5530, vendor: 1002, model: 68F9
+name: ATI Radeon HD 5570, vendor: 1002, model: 68DA
+name: ATI Radeon HD 5570, vendor: 1002, model: 68D9
+name: ATI Radeon HD 5600/5700, vendor: 1002, model: 68B9
+name: ATI Radeon HD 5630, vendor: 1002, model: 68D9
+name: ATI Radeon HD 5630, vendor: 1002, model: 68DA
+name: ATI Radeon HD 5670, vendor: 1002, model: 68D8
+name: ATI Radeon HD 5690, vendor: 1002, model: 68D8
+name: ATI Radeon HD 5700 Series, vendor: 1002, model: 68B8
+name: ATI Radeon HD 5700 Series, vendor: 1002, model: 68BE
+name: ATI Radeon HD 5730, vendor: 1002, model: 68D8
+name: ATI Radeon HD 5800 Series, vendor: 1002, model: 6898
+name: ATI Radeon HD 5800 Series, vendor: 1002, model: 6899
+name: ATI Radeon HD 5800 Series, vendor: 1002, model: 689E
+name: ATI Radeon HD 5850X2, vendor: 1002, model: 6899
+name: ATI Radeon HD 5900 Series, vendor: 1002, model: 689C
+name: ATI Radeon HD 6230, vendor: 1002, model: 68E1
+name: ATI Radeon HD 6230, vendor: 1002, model: 68F9
+name: ATI Radeon HD 6250, vendor: 1002, model: 68E1
+name: ATI Radeon HD 6250, vendor: 1002, model: 68F9
+name: ATI Radeon HD 6290, vendor: 1002, model: 68F9
+name: ATI Radeon HD 6350 Graphics, vendor: 1002, model: 68F9
+name: ATI Radeon HD 6350, vendor: 1002, model: 68E1
+name: ATI Radeon HD 6350, vendor: 1002, model: 68E5
+name: ATI Radeon HD 6350, vendor: 1002, model: 68F9
+name: ATI Radeon HD 6390, vendor: 1002, model: 68DA
+name: ATI Radeon HD 6490, vendor: 1002, model: 68DA
+name: ATI Radeon HD 6510, vendor: 1002, model: 68D9
+name: ATI Radeon HD 6610, vendor: 1002, model: 68D9
+name: ATI Radeon HD 6750, vendor: 1002, model: 68BE
+name: ATI Radeon HD 7350, vendor: 1002, model: 68E1
+name: ATI Radeon HD 7350, vendor: 1002, model: 68E5
+name: ATI Radeon HD 7350, vendor: 1002, model: 68F9
+name: ATI Radeon HD 8350, vendor: 1002, model: 68E1
+name: Radeon (TM) HD 7750M, vendor: 1002, model: 6825
+name: EG PARK, vendor: 1002, model: 68E1
+name: FirePro S10000 Passive, vendor: 1002, model: 678A
+name: FirePro SX4000 MxM, vendor: 1002, model: 6821
+name: Radeon (TM) HD 7870M, vendor: 1002, model: 6825
+name: Mobility Radeon HD 6000 series, vendor: 1002, model: 6760
+name: Radeon (TM)  HD 7570M, vendor: 1002, model: 6841
+name: Radeon (TM) HD 6470M, vendor: 1002, model: 6760
+name: Radeon (TM) HD 6750M, vendor: 1002, model: 6741
+name: Radeon (TM) HD 6770M, vendor: 1002, model: 6740
+name: Radeon (TM) HD 6850M, vendor: 1002, model: 68A8
+name: Radeon (TM) HD 7750M, vendor: 1002, model: 682F
+name: Radeon Sky 500, vendor: 1002, model: 6808
+name: Radeon Sky 700, vendor: 1002, model: 678A
+name: Radeon Sky 900, vendor: 1002, model: 678A
+name: VisionTek Radeon HD 5450, vendor: 1002, model: 68E1
+name: NVIDIA GeForce 8800 GTX, vendor: 10DE, model: 0191
+name: NVIDIA GeForce 8800 GTS, vendor: 10DE, model: 0193
+name: NVIDIA GeForce 8800 Ultra, vendor: 10DE, model: 0194
+name: NVIDIA Quadro FX 5600, vendor: 10DE, model: 019D
+name: NVIDIA Quadro FX 4600, vendor: 10DE, model: 019E
+name: NVIDIA GeForce 8600 GTS, vendor: 10DE, model: 0400
+name: NVIDIA GeForce 8600 GT, vendor: 10DE, model: 0401
+name: NVIDIA GeForce 8600 GT, vendor: 10DE, model: 0402
+name: NVIDIA GeForce 8600 GS, vendor: 10DE, model: 0403
+name: NVIDIA GeForce 8400 GS, vendor: 10DE, model: 0404
+name: NVIDIA GeForce 9500M GS, vendor: 10DE, model: 0405
+name: NVIDIA GeForce 8300 GS, vendor: 10DE, model: 0406
+name: NVIDIA GeForce 8600M GT, vendor: 10DE, model: 0407
+name: NVIDIA GeForce 9650M GS, vendor: 10DE, model: 0408
+name: NVIDIA GeForce 8700M GT, vendor: 10DE, model: 0409
+name: NVIDIA Quadro FX 370, vendor: 10DE, model: 040A
+name: NVIDIA Quadro NVS 320M, vendor: 10DE, model: 040B
+name: NVIDIA Quadro FX 570M, vendor: 10DE, model: 040C
+name: NVIDIA Quadro FX 1600M, vendor: 10DE, model: 040D
+name: NVIDIA Quadro FX 570, vendor: 10DE, model: 040E
+name: NVIDIA Quadro FX 1700, vendor: 10DE, model: 040F
+name: NVIDIA GeForce GT 330, vendor: 10DE, model: 0410
+name: NVIDIA GeForce 8400 SE, vendor: 10DE, model: 0420
+name: NVIDIA GeForce 8500 GT, vendor: 10DE, model: 0421
+name: NVIDIA GeForce 8400 GS, vendor: 10DE, model: 0422
+name: NVIDIA GeForce 8300 GS, vendor: 10DE, model: 0423
+name: NVIDIA GeForce 8400 GS, vendor: 10DE, model: 0424
+name: NVIDIA GeForce 8600M GS, vendor: 10DE, model: 0425
+name: NVIDIA GeForce 8400M GT, vendor: 10DE, model: 0426
+name: NVIDIA GeForce 8400M GS, vendor: 10DE, model: 0427
+name: NVIDIA GeForce 8400M G, vendor: 10DE, model: 0428
+name: NVIDIA Quadro NVS 140M, vendor: 10DE, model: 0429
+name: NVIDIA Quadro NVS 130M, vendor: 10DE, model: 042A
+name: NVIDIA Quadro NVS 135M, vendor: 10DE, model: 042B
+name: NVIDIA GeForce 9400 GT, vendor: 10DE, model: 042C
+name: NVIDIA Quadro FX 360M, vendor: 10DE, model: 042D
+name: NVIDIA GeForce 9300M G, vendor: 10DE, model: 042E
+name: NVIDIA Quadro NVS 290, vendor: 10DE, model: 042F
+name: NVIDIA GeForce GTX 295, vendor: 10DE, model: 05E0
+name: NVIDIA GeForce GTX 280, vendor: 10DE, model: 05E1
+name: NVIDIA GeForce GTX 260, vendor: 10DE, model: 05E2
+name: NVIDIA GeForce GTX 285, vendor: 10DE, model: 05E3
+name: NVIDIA GeForce GTX 275, vendor: 10DE, model: 05E6
+name: NVIDIA GeForce GTX 260, vendor: 10DE, model: 05EA
+name: NVIDIA GeForce GTX 295, vendor: 10DE, model: 05EB
+name: NVIDIA Quadro CX, vendor: 10DE, model: 05F9
+name: NVIDIA Quadro FX 5800, vendor: 10DE, model: 05FD
+name: NVIDIA Quadro FX 4800, vendor: 10DE, model: 05FE
+name: NVIDIA Quadro FX 3800, vendor: 10DE, model: 05FF
+name: NVIDIA GeForce 8800 GTS 512, vendor: 10DE, model: 0600
+name: NVIDIA GeForce 9800 GT, vendor: 10DE, model: 0601
+name: NVIDIA GeForce 8800 GT, vendor: 10DE, model: 0602
+name: NVIDIA GeForce GT 230, vendor: 10DE, model: 0603
+name: NVIDIA GeForce 9800 GX2, vendor: 10DE, model: 0604
+name: NVIDIA GeForce 9800 GT, vendor: 10DE, model: 0605
+name: NVIDIA GeForce 8800 GS, vendor: 10DE, model: 0606
+name: NVIDIA GeForce GTS 240, vendor: 10DE, model: 0607
+name: NVIDIA GeForce 9800M GTX, vendor: 10DE, model: 0608
+name: NVIDIA GeForce 8800M GTS, vendor: 10DE, model: 0609
+name: NVIDIA GeForce GTX 280M, vendor: 10DE, model: 060A
+name: NVIDIA GeForce 9800M GT, vendor: 10DE, model: 060B
+name: NVIDIA GeForce 8800M GTX, vendor: 10DE, model: 060C
+name: NVIDIA GeForce GTX 285M, vendor: 10DE, model: 060F
+name: NVIDIA GeForce 9600 GSO, vendor: 10DE, model: 0610
+name: NVIDIA GeForce 8800 GT, vendor: 10DE, model: 0611
+name: NVIDIA GeForce 9800 GTX/9800 GTX+, vendor: 10DE, model: 0612
+name: NVIDIA GeForce 9800 GTX+, vendor: 10DE, model: 0613
+name: NVIDIA GeForce 9800 GT, vendor: 10DE, model: 0614
+name: NVIDIA GeForce GTS 250, vendor: 10DE, model: 0615
+name: NVIDIA GeForce 9800M GTX, vendor: 10DE, model: 0617
+name: NVIDIA GeForce GTX 260M, vendor: 10DE, model: 0618
+name: NVIDIA Quadro FX 4700 X2, vendor: 10DE, model: 0619
+name: NVIDIA Quadro FX 3700, vendor: 10DE, model: 061A
+name: NVIDIA Quadro VX 200, vendor: 10DE, model: 061B
+name: NVIDIA Quadro FX 3600M, vendor: 10DE, model: 061C
+name: NVIDIA Quadro FX 2800M, vendor: 10DE, model: 061D
+name: NVIDIA Quadro FX 3700M, vendor: 10DE, model: 061E
+name: NVIDIA Quadro FX 3800M, vendor: 10DE, model: 061F
+name: NVIDIA GeForce GT 230, vendor: 10DE, model: 0621
+name: NVIDIA GeForce 9600 GT, vendor: 10DE, model: 0622
+name: NVIDIA GeForce 9600 GS, vendor: 10DE, model: 0623
+name: NVIDIA GeForce 9600 GSO 512, vendor: 10DE, model: 0625
+name: NVIDIA GeForce GT 130, vendor: 10DE, model: 0626
+name: NVIDIA GeForce GT 140, vendor: 10DE, model: 0627
+name: NVIDIA GeForce 9800M GTS, vendor: 10DE, model: 0628
+name: NVIDIA GeForce 9700M GTS, vendor: 10DE, model: 062A
+name: NVIDIA GeForce 9800M GS, vendor: 10DE, model: 062B
+name: NVIDIA GeForce 9800M GTS, vendor: 10DE, model: 062C
+name: NVIDIA GeForce 9600 GT, vendor: 10DE, model: 062D
+name: NVIDIA GeForce 9600 GT, vendor: 10DE, model: 062E
+name: NVIDIA GeForce GTS 160M, vendor: 10DE, model: 0631
+name: NVIDIA GeForce 9600 GSO, vendor: 10DE, model: 0635
+name: NVIDIA GeForce 9600 GT, vendor: 10DE, model: 0637
+name: NVIDIA Quadro FX 1800, vendor: 10DE, model: 0638
+name: NVIDIA Quadro FX 2700M, vendor: 10DE, model: 063A
+name: NVIDIA GeForce 9500 GT, vendor: 10DE, model: 0640
+name: NVIDIA GeForce 9400 GT, vendor: 10DE, model: 0641
+name: NVIDIA GeForce 9500 GT, vendor: 10DE, model: 0643
+name: NVIDIA GeForce 9500 GS, vendor: 10DE, model: 0644
+name: NVIDIA GeForce 9500 GS, vendor: 10DE, model: 0645
+name: NVIDIA GeForce GT 120, vendor: 10DE, model: 0646
+name: NVIDIA GeForce 9600M GT, vendor: 10DE, model: 0647
+name: NVIDIA GeForce 9600M GS, vendor: 10DE, model: 0648
+name: NVIDIA GeForce 9600M GT, vendor: 10DE, model: 0649
+name: NVIDIA GeForce 9700M GT, vendor: 10DE, model: 064A
+name: NVIDIA GeForce 9500M G, vendor: 10DE, model: 064B
+name: NVIDIA GeForce 9650M GT, vendor: 10DE, model: 064C
+name: NVIDIA GeForce G 110M, vendor: 10DE, model: 0651
+name: NVIDIA GeForce GT 130M, vendor: 10DE, model: 0652
+name: NVIDIA GeForce GT 120M, vendor: 10DE, model: 0653
+name: NVIDIA GeForce GT 320M, vendor: 10DE, model: 0654
+name: NVIDIA GeForce GT 120, vendor: 10DE, model: 0655
+name: NVIDIA GeForce GT 120, vendor: 10DE, model: 0656
+name: NVIDIA Quadro FX 380, vendor: 10DE, model: 0658
+name: NVIDIA Quadro FX 580, vendor: 10DE, model: 0659
+name: NVIDIA Quadro FX 1700M, vendor: 10DE, model: 065A
+name: NVIDIA GeForce 9400 GT, vendor: 10DE, model: 065B
+name: NVIDIA Quadro FX 770M, vendor: 10DE, model: 065C
+name: NVIDIA GeForce G210, vendor: 10DE, model: 065F
+name: NVIDIA GeForce GTX 480, vendor: 10DE, model: 06C0
+name: NVIDIA GeForce GTX 465, vendor: 10DE, model: 06C4
+name: NVIDIA GeForce GTX 480M, vendor: 10DE, model: 06CA
+name: NVIDIA GeForce GTX 470, vendor: 10DE, model: 06CD
+name: NVIDIA Quadro 6000, vendor: 10DE, model: 06D8
+name: NVIDIA Quadro 5000, vendor: 10DE, model: 06D9
+name: NVIDIA Quadro 5000M, vendor: 10DE, model: 06DA
+name: NVIDIA Quadro 6000, vendor: 10DE, model: 06DC
+name: NVIDIA Quadro 4000, vendor: 10DE, model: 06DD
+name: NVIDIA GeForce 9300 GE, vendor: 10DE, model: 06E0
+name: NVIDIA GeForce 9300 GS, vendor: 10DE, model: 06E1
+name: NVIDIA GeForce 8400, vendor: 10DE, model: 06E2
+name: NVIDIA GeForce 8400 SE, vendor: 10DE, model: 06E3
+name: NVIDIA GeForce 8400 GS, vendor: 10DE, model: 06E4
+name: NVIDIA GeForce G100, vendor: 10DE, model: 06E6
+name: NVIDIA GeForce 9300 SE, vendor: 10DE, model: 06E7
+name: NVIDIA GeForce 9200M GS, vendor: 10DE, model: 06E8
+name: NVIDIA GeForce 9300M GS, vendor: 10DE, model: 06E9
+name: NVIDIA Quadro NVS 150M, vendor: 10DE, model: 06EA
+name: NVIDIA Quadro NVS 160M, vendor: 10DE, model: 06EB
+name: NVIDIA GeForce G 105M, vendor: 10DE, model: 06EC
+name: NVIDIA GeForce G 103M, vendor: 10DE, model: 06EF
+name: NVIDIA GeForce G105M, vendor: 10DE, model: 06F1
+name: NVIDIA Quadro NVS 420, vendor: 10DE, model: 06F8
+name: NVIDIA Quadro FX 370 LP, vendor: 10DE, model: 06F9
+name: NVIDIA Quadro NVS 450, vendor: 10DE, model: 06FA
+name: NVIDIA Quadro FX 370M, vendor: 10DE, model: 06FB
+name: NVIDIA Quadro NVS 295, vendor: 10DE, model: 06FD
+name: NVIDIA HICx16 + Graphics, vendor: 10DE, model: 06FF
+name: NVIDIA GeForce 8200M, vendor: 10DE, model: 0840
+name: NVIDIA GeForce 9100M G, vendor: 10DE, model: 0844
+name: NVIDIA GeForce 8200M G, vendor: 10DE, model: 0845
+name: NVIDIA GeForce 9200, vendor: 10DE, model: 0846
+name: NVIDIA GeForce 9100, vendor: 10DE, model: 0847
+name: NVIDIA GeForce 8300, vendor: 10DE, model: 0848
+name: NVIDIA GeForce 8200, vendor: 10DE, model: 0849
+name: NVIDIA nForce 730a, vendor: 10DE, model: 084A
+name: NVIDIA GeForce 9200, vendor: 10DE, model: 084B
+name: NVIDIA nForce 980a/780a SLI, vendor: 10DE, model: 084C
+name: NVIDIA nForce 750a SLI, vendor: 10DE, model: 084D
+name: NVIDIA GeForce 8100 / nForce 720a, vendor: 10DE, model: 084F
+name: NVIDIA GeForce 9400, vendor: 10DE, model: 0860
+name: NVIDIA GeForce 9400, vendor: 10DE, model: 0861
+name: NVIDIA GeForce 9400M G, vendor: 10DE, model: 0862
+name: NVIDIA GeForce 9400M, vendor: 10DE, model: 0863
+name: NVIDIA GeForce 9300, vendor: 10DE, model: 0864
+name: NVIDIA ION, vendor: 10DE, model: 0865
+name: NVIDIA GeForce 9400M G, vendor: 10DE, model: 0866
+name: NVIDIA GeForce 9400, vendor: 10DE, model: 0867
+name: NVIDIA nForce 760i SLI, vendor: 10DE, model: 0868
+name: NVIDIA GeForce 9400, vendor: 10DE, model: 0869
+name: NVIDIA GeForce 9400, vendor: 10DE, model: 086A
+name: NVIDIA GeForce 9300 / nForce 730i, vendor: 10DE, model: 086C
+name: NVIDIA GeForce 9200, vendor: 10DE, model: 086D
+name: NVIDIA GeForce 9100M G, vendor: 10DE, model: 086E
+name: NVIDIA GeForce 8200M G, vendor: 10DE, model: 086F
+name: NVIDIA GeForce 9400M, vendor: 10DE, model: 0870
+name: NVIDIA GeForce 9200, vendor: 10DE, model: 0871
+name: NVIDIA GeForce G102M, vendor: 10DE, model: 0872
+name: NVIDIA GeForce G102M, vendor: 10DE, model: 0873
+name: NVIDIA ION, vendor: 10DE, model: 0874
+name: NVIDIA ION, vendor: 10DE, model: 0876
+name: NVIDIA GeForce 9400, vendor: 10DE, model: 087A
+name: NVIDIA ION, vendor: 10DE, model: 087D
+name: NVIDIA ION LE, vendor: 10DE, model: 087E
+name: NVIDIA ION LE, vendor: 10DE, model: 087F
+name: NVIDIA GeForce 320M, vendor: 10DE, model: 08A0
+name: NVIDIA GeForce 320M, vendor: 10DE, model: 08A2
+name: NVIDIA GeForce 320M, vendor: 10DE, model: 08A3
+name: NVIDIA GeForce 320M, vendor: 10DE, model: 08A4
+name: NVIDIA GeForce GT 220, vendor: 10DE, model: 0A20
+name: NVIDIA GeForce 315, vendor: 10DE, model: 0A22
+name: NVIDIA GeForce 210, vendor: 10DE, model: 0A23
+name: NVIDIA GeForce 405, vendor: 10DE, model: 0A26
+name: NVIDIA GeForce 405, vendor: 10DE, model: 0A27
+name: NVIDIA GeForce GT 230M, vendor: 10DE, model: 0A28
+name: NVIDIA GeForce GT 330M, vendor: 10DE, model: 0A29
+name: NVIDIA GeForce GT 230M, vendor: 10DE, model: 0A2A
+name: NVIDIA GeForce GT 330M, vendor: 10DE, model: 0A2B
+name: NVIDIA NVS 5100M, vendor: 10DE, model: 0A2C
+name: NVIDIA GeForce GT 320M, vendor: 10DE, model: 0A2D
+name: NVIDIA GeForce GT 415, vendor: 10DE, model: 0A32
+name: NVIDIA GeForce GT 240M, vendor: 10DE, model: 0A34
+name: NVIDIA GeForce GT 325M, vendor: 10DE, model: 0A35
+name: NVIDIA Quadro 400, vendor: 10DE, model: 0A38
+name: NVIDIA Quadro FX 880M, vendor: 10DE, model: 0A3C
+name: NVIDIA GeForce G210, vendor: 10DE, model: 0A60
+name: NVIDIA GeForce 205, vendor: 10DE, model: 0A62
+name: NVIDIA GeForce 310, vendor: 10DE, model: 0A63
+name: NVIDIA ION, vendor: 10DE, model: 0A64
+name: NVIDIA GeForce 210, vendor: 10DE, model: 0A65
+name: NVIDIA GeForce 310, vendor: 10DE, model: 0A66
+name: NVIDIA GeForce 315, vendor: 10DE, model: 0A67
+name: NVIDIA GeForce G105M, vendor: 10DE, model: 0A68
+name: NVIDIA GeForce G105M, vendor: 10DE, model: 0A69
+name: NVIDIA NVS 2100M, vendor: 10DE, model: 0A6A
+name: NVIDIA NVS 3100M, vendor: 10DE, model: 0A6C
+name: NVIDIA GeForce 305M, vendor: 10DE, model: 0A6E
+name: NVIDIA ION, vendor: 10DE, model: 0A6F
+name: NVIDIA GeForce 310M, vendor: 10DE, model: 0A70
+name: NVIDIA GeForce 305M, vendor: 10DE, model: 0A71
+name: NVIDIA GeForce 310M, vendor: 10DE, model: 0A72
+name: NVIDIA GeForce 305M, vendor: 10DE, model: 0A73
+name: NVIDIA GeForce G210M, vendor: 10DE, model: 0A74
+name: NVIDIA GeForce 310M, vendor: 10DE, model: 0A75
+name: NVIDIA ION, vendor: 10DE, model: 0A76
+name: NVIDIA Quadro FX 380 LP, vendor: 10DE, model: 0A78
+name: NVIDIA GeForce 405, vendor: 10DE, model: 0A7A
+name: NVIDIA Quadro FX 380M, vendor: 10DE, model: 0A7C
+name: NVIDIA GeForce GT 330, vendor: 10DE, model: 0CA0
+name: NVIDIA GeForce GT 320, vendor: 10DE, model: 0CA2
+name: NVIDIA GeForce GT 240, vendor: 10DE, model: 0CA3
+name: NVIDIA GeForce GT 340, vendor: 10DE, model: 0CA4
+name: NVIDIA GeForce GT 220, vendor: 10DE, model: 0CA5
+name: NVIDIA GeForce GT 330, vendor: 10DE, model: 0CA7
+name: NVIDIA GeForce GTS 250M, vendor: 10DE, model: 0CA9
+name: NVIDIA GeForce GT 220, vendor: 10DE, model: 0CAC
+name: NVIDIA GeForce GT 335M, vendor: 10DE, model: 0CAF
+name: NVIDIA GeForce GTS 350M, vendor: 10DE, model: 0CB0
+name: NVIDIA GeForce GTS 360M, vendor: 10DE, model: 0CB1
+name: NVIDIA Quadro FX 1800M, vendor: 10DE, model: 0CBC
+name: NVIDIA GeForce GT 440, vendor: 10DE, model: 0DC0
+name: NVIDIA GeForce GTS 450, vendor: 10DE, model: 0DC4
+name: NVIDIA GeForce GTS 450, vendor: 10DE, model: 0DC5
+name: NVIDIA GeForce GTS 450, vendor: 10DE, model: 0DC6
+name: NVIDIA GeForce GT 555M, vendor: 10DE, model: 0DCD
+name: NVIDIA GeForce GT 555M, vendor: 10DE, model: 0DCE
+name: NVIDIA GeForce GTX 460M, vendor: 10DE, model: 0DD1
+name: NVIDIA GeForce GT 445M, vendor: 10DE, model: 0DD2
+name: NVIDIA GeForce GT 435M, vendor: 10DE, model: 0DD3
+name: NVIDIA GeForce GT 550M, vendor: 10DE, model: 0DD6
+name: NVIDIA Quadro 2000, vendor: 10DE, model: 0DD8
+name: NVIDIA Quadro 2000M, vendor: 10DE, model: 0DDA
+name: NVIDIA GeForce GT 440, vendor: 10DE, model: 0DE0
+name: NVIDIA GeForce GT 430, vendor: 10DE, model: 0DE1
+name: NVIDIA GeForce GT 420, vendor: 10DE, model: 0DE2
+name: NVIDIA GeForce GT 635M, vendor: 10DE, model: 0DE3
+name: NVIDIA GeForce GT 520, vendor: 10DE, model: 0DE4
+name: NVIDIA GeForce GT 530, vendor: 10DE, model: 0DE5
+name: NVIDIA GeForce GT 620M, vendor: 10DE, model: 0DE8
+name: NVIDIA GeForce GT 630M, vendor: 10DE, model: 0DE9
+name: NVIDIA GeForce 610M, vendor: 10DE, model: 0DEA
+name: NVIDIA GeForce GT 555M, vendor: 10DE, model: 0DEB
+name: NVIDIA GeForce GT 525M, vendor: 10DE, model: 0DEC
+name: NVIDIA GeForce GT 520M, vendor: 10DE, model: 0DED
+name: NVIDIA GeForce GT 415M, vendor: 10DE, model: 0DEE
+name: NVIDIA NVS 5400M, vendor: 10DE, model: 0DEF
+name: NVIDIA GeForce GT 425M, vendor: 10DE, model: 0DF0
+name: NVIDIA GeForce GT 420M, vendor: 10DE, model: 0DF1
+name: NVIDIA GeForce GT 435M, vendor: 10DE, model: 0DF2
+name: NVIDIA GeForce GT 420M, vendor: 10DE, model: 0DF3
+name: NVIDIA GeForce GT 540M, vendor: 10DE, model: 0DF4
+name: NVIDIA GeForce GT 525M, vendor: 10DE, model: 0DF5
+name: NVIDIA GeForce GT 550M, vendor: 10DE, model: 0DF6
+name: NVIDIA GeForce GT 520M, vendor: 10DE, model: 0DF7
+name: NVIDIA Quadro 600, vendor: 10DE, model: 0DF8
+name: NVIDIA Quadro 500M, vendor: 10DE, model: 0DF9
+name: NVIDIA Quadro 1000M, vendor: 10DE, model: 0DFA
+name: NVIDIA NVS 5200M, vendor: 10DE, model: 0DFC
+name: NVIDIA GeForce GTX 460, vendor: 10DE, model: 0E22
+name: NVIDIA GeForce GTX 460 SE, vendor: 10DE, model: 0E23
+name: NVIDIA GeForce GTX 460, vendor: 10DE, model: 0E24
+name: NVIDIA GeForce GTX 470M, vendor: 10DE, model: 0E30
+name: NVIDIA GeForce GTX 485M, vendor: 10DE, model: 0E31
+name: NVIDIA Quadro 3000M, vendor: 10DE, model: 0E3A
+name: NVIDIA Quadro 4000M, vendor: 10DE, model: 0E3B
+name: NVIDIA GeForce GT 630, vendor: 10DE, model: 0F00
+name: NVIDIA GeForce GT 620, vendor: 10DE, model: 0F01
+name: NVIDIA GeForce GT 640, vendor: 10DE, model: 0FC0
+name: NVIDIA GeForce GT 640, vendor: 10DE, model: 0FC1
+name: NVIDIA GeForce GT 630, vendor: 10DE, model: 0FC2
+name: NVIDIA GeForce GTX 650, vendor: 10DE, model: 0FC6
+name: NVIDIA GeForce GT 650M, vendor: 10DE, model: 0FD1
+name: NVIDIA GeForce GT 640M, vendor: 10DE, model: 0FD2
+name: NVIDIA GeForce GT 640M LE, vendor: 10DE, model: 0FD3
+name: NVIDIA GeForce GTX 660M, vendor: 10DE, model: 0FD4
+name: NVIDIA GeForce GT 650M, vendor: 10DE, model: 0FD5
+name: NVIDIA GeForce GT 640M, vendor: 10DE, model: 0FD8
+name: NVIDIA GeForce GT 645M, vendor: 10DE, model: 0FD9
+name: NVIDIA GeForce GTX 660M, vendor: 10DE, model: 0FE0
+name: NVIDIA Quadro K2000D, vendor: 10DE, model: 0FF9
+name: NVIDIA Quadro K600, vendor: 10DE, model: 0FFA
+name: NVIDIA Quadro K2000M, vendor: 10DE, model: 0FFB
+name: NVIDIA Quadro K1000M, vendor: 10DE, model: 0FFC
+name: NVIDIA NVS 510, vendor: 10DE, model: 0FFD
+name: NVIDIA Quadro K2000, vendor: 10DE, model: 0FFE
+name: NVIDIA Quadro 410, vendor: 10DE, model: 0FFF
+name: NVIDIA GeForce GT 520, vendor: 10DE, model: 1040
+name: NVIDIA GeForce 510, vendor: 10DE, model: 1042
+name: NVIDIA GeForce 605, vendor: 10DE, model: 1048
+name: NVIDIA GeForce GT 620, vendor: 10DE, model: 1049
+name: NVIDIA GeForce GT 610, vendor: 10DE, model: 104A
+name: NVIDIA GeForce GT 520M, vendor: 10DE, model: 1050
+name: NVIDIA GeForce GT 520MX, vendor: 10DE, model: 1051
+name: NVIDIA GeForce GT 520M, vendor: 10DE, model: 1052
+name: NVIDIA GeForce 410M, vendor: 10DE, model: 1054
+name: NVIDIA GeForce 410M, vendor: 10DE, model: 1055
+name: NVIDIA NVS 4200M, vendor: 10DE, model: 1056
+name: NVIDIA NVS 4200M, vendor: 10DE, model: 1057
+name: NVIDIA GeForce 610M, vendor: 10DE, model: 1058
+name: NVIDIA GeForce 610M, vendor: 10DE, model: 1059
+name: NVIDIA GeForce 610M, vendor: 10DE, model: 105A
+name: NVIDIA NVS 310, vendor: 10DE, model: 107D
+name: NVIDIA GeForce GTX 580, vendor: 10DE, model: 1080
+name: NVIDIA GeForce GTX 570, vendor: 10DE, model: 1081
+name: NVIDIA GeForce GTX 560 Ti, vendor: 10DE, model: 1082
+name: NVIDIA GeForce GTX 560, vendor: 10DE, model: 1084
+name: NVIDIA GeForce GTX 570, vendor: 10DE, model: 1086
+name: NVIDIA GeForce GTX 560 Ti, vendor: 10DE, model: 1087
+name: NVIDIA GeForce GTX 590, vendor: 10DE, model: 1088
+name: NVIDIA GeForce GTX 580, vendor: 10DE, model: 1089
+name: NVIDIA GeForce GTX 580, vendor: 10DE, model: 108B
+name: NVIDIA Quadro 5010M, vendor: 10DE, model: 109A
+name: NVIDIA Quadro 7000, vendor: 10DE, model: 109B
+name: NVIDIA GeForce 9300 GS, vendor: 10DE, model: 10C0
+name: NVIDIA GeForce 8400GS, vendor: 10DE, model: 10C3
+name: NVIDIA GeForce 405, vendor: 10DE, model: 10C5
+name: NVIDIA NVS 300, vendor: 10DE, model: 10D8
+name: NVIDIA GeForce GT 620M, vendor: 10DE, model: 1140
+name: NVIDIA GeForce GTX 680, vendor: 10DE, model: 1180
+name: NVIDIA GeForce GTX 660 Ti, vendor: 10DE, model: 1183
+name: NVIDIA GeForce GTX 660, vendor: 10DE, model: 1185
+name: NVIDIA GeForce GTX 690, vendor: 10DE, model: 1188
+name: NVIDIA GeForce GTX 670, vendor: 10DE, model: 1189
+name: NVIDIA GeForce GTX 680M, vendor: 10DE, model: 11A0
+name: NVIDIA GeForce GTX 670MX, vendor: 10DE, model: 11A1
+name: NVIDIA GeForce GTX 675MX, vendor: 10DE, model: 11A2
+name: NVIDIA GeForce GTX 680MX, vendor: 10DE, model: 11A3
+name: NVIDIA GeForce GTX 675MX, vendor: 10DE, model: 11A7
+name: NVIDIA Quadro K5000, vendor: 10DE, model: 11BA
+name: NVIDIA Quadro K5000M, vendor: 10DE, model: 11BC
+name: NVIDIA Quadro K4000M, vendor: 10DE, model: 11BD
+name: NVIDIA Quadro K3000M, vendor: 10DE, model: 11BE
+name: NVIDIA GRID K2, vendor: 10DE, model: 11BF
+name: NVIDIA GeForce GTX 660, vendor: 10DE, model: 11C0
+name: NVIDIA GeForce GTX 650 Ti, vendor: 10DE, model: 11C6
+name: NVIDIA Quadro K4000, vendor: 10DE, model: 11FA
+name: NVIDIA GeForce GTX 560 Ti, vendor: 10DE, model: 1200
+name: NVIDIA GeForce GTX 560, vendor: 10DE, model: 1201
+name: NVIDIA GeForce GTX 460 v2, vendor: 10DE, model: 1205
+name: NVIDIA GeForce  GTX 555, vendor: 10DE, model: 1206
+name: NVIDIA GeForce GT 645, vendor: 10DE, model: 1207
+name: NVIDIA GeForce GTX 560 SE, vendor: 10DE, model: 1208
+name: NVIDIA GeForce GTX 570M, vendor: 10DE, model: 1210
+name: NVIDIA GeForce GTX 580M, vendor: 10DE, model: 1211
+name: NVIDIA GeForce GTX 675M, vendor: 10DE, model: 1212
+name: NVIDIA GeForce GTX 670M, vendor: 10DE, model: 1213
+name: NVIDIA GeForce GT 545, vendor: 10DE, model: 1241
+name: NVIDIA GeForce GT 545, vendor: 10DE, model: 1243
+name: NVIDIA GeForce GTX 550 Ti, vendor: 10DE, model: 1244
+name: NVIDIA GeForce GTS 450, vendor: 10DE, model: 1245
+name: NVIDIA GeForce GT 550M, vendor: 10DE, model: 1246
+name: NVIDIA GeForce GT 635M, vendor: 10DE, model: 1247
+name: NVIDIA GeForce GT 555M, vendor: 10DE, model: 1248
+name: NVIDIA GeForce GTS 450, vendor: 10DE, model: 1249
+name: NVIDIA GeForce GT 640, vendor: 10DE, model: 124B
+name: NVIDIA GeForce GT 555M, vendor: 10DE, model: 124D
+name: NVIDIA GeForce GTX 560M, vendor: 10DE, model: 1251
+name: NVIDIA GeForce GTX TITAN, vendor: 10DE, model: 1035
+name: NVIDIA GeForce GTX TITAN BLACK, vendor: 10DE, model: 100C
+name: NVIDIA GeForce GTX 750, vendor: 10DE, model: 1381
+name: NVIDIA GeForce GTX 750 Ti, vendor: 10DE, model: 105F
+name: NVIDIA GeForce GTX 760, vendor: 10DE, model: 1187
+name: NVIDIA GeForce GTX 760 Ti (OEM), vendor: 10DE, model: 1189
+name: NVIDIA GeForce GTX 760M, vendor: 10DE, model: 11E3
+name: NVIDIA GeForce GTX 765M, vendor: 10DE, model: 11E2
+name: NVIDIA GeForce GTX 770, vendor: 10DE, model: 1184
+name: NVIDIA GeForce GTX 770M, vendor: 10DE, model: 11E0
+name: NVIDIA GeForce GTX 780, vendor: 10DE, model: 1004
+name: NVIDIA GeForce GTX 780 Ti, vendor: 10DE, model: 100A
+name: NVIDIA GeForce GTX 780M, vendor: 10DE, model: 119F
+name: NVIDIA GeForce GTX 880M, vendor: 10DE, model: 1198
+name: NVIDIA GeForce GTX 960, vendor: 10DE, model: 1401
+name: NVIDIA GeForce GTX 970, vendor: 10DE, model: 13C2
+name: NVIDIA GeForce GTX 980, vendor: 10DE, model: 13C0

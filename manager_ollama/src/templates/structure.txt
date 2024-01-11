@@ -1,0 +1,18 @@
+{
+    "slots": ,
+    "overprovision": ,
+    "allowSMT": ,
+    "archs": ,
+    "flags": ,
+    "min_frequency": ,
+    "ramsize": ,
+    "reqECC": ,
+    "misc": {"os_family": "", "os_flavour": ""},
+    "pci": [
+        {
+            "vendor": "",
+            "model": "",
+            "quantity": 
+        }
+    ]
+}
