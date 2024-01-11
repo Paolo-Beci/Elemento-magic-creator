@@ -1,1 +1,8 @@
 node_modules
+*.egg
+*.egg-info
+*.bv
+*.pyc
+build
+__pycache__
+eggs
