@@ -46,6 +46,6 @@ def get_service(service_name):
 register_endpoints(app ,get_services, save_service, get_service)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5001, debug=True)
 
 

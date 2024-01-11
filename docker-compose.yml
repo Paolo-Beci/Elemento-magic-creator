@@ -11,9 +11,10 @@ services:
     restart: unless-stopped
 
   middleware:
-    build:
-      context: ./middleware
-      dockerfile: Dockerfile
+    build: ./middleware
+    hostname: middleware
+    networks:
+      - net
     restart: unless-stopped
 
   web_scraper:
@@ -26,9 +27,7 @@ services:
   manager_ollama:
     build: ./manager_ollama
     container_name: manager-ollama
-    hostname: manager_ollama
-    ports: 
-      - "5001:5001"
+    hostname: manager-ollama
     networks:
       - net
     restart: unless-stopped
@@ -37,8 +36,6 @@ services:
     image: ollama/ollama
     container_name: ollama
     hostname: ollama
-    ports:
-      - "11434:11434"
     volumes:
       - ollama_data:/root/.ollama
     networks:
