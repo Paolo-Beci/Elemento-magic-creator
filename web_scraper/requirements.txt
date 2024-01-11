@@ -2,5 +2,4 @@ duckduckgo_search
 beautifulsoup4
 fastapi
 uvicorn
-selenium
-webdriver-manager
+requests_html
