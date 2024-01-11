@@ -1,7 +1,7 @@
 # api/endpoints.py
 from flask import request, jsonify
-import requests
 from utils.helpers import webscraper, ollama
+
 
 def register_endpoints(app, get_services, save_service, get_service):
     @app.route('/api/v1/get-specs', methods=['GET'])
@@ -19,7 +19,8 @@ def register_endpoints(app, get_services, save_service, get_service):
             component_response = ollama(website)
 
             if component_response:
-                save_service(component_response['service_name'], component_response['json_data'])
+                save_service(component_response['service_name'], 
+                             component_response['json_data'])
                 return jsonify({'message': 'Servizio salvato con successo'})
 
             return jsonify({'error': 'Servizio non trovato e impossibile ottenere i dati dal componente'}), 404

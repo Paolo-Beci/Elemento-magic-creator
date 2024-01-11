@@ -1,6 +1,7 @@
 # utils/helpers.py
 import requests
 
+
 def webscraper(service_name):
     # component_url = f'webscraper:5001/api/v1/get-component'
     # response = requests.get(component_url, params={'name': service_name})
@@ -11,7 +12,7 @@ def webscraper(service_name):
     # return None
 
     # mock return
-    mock_response = {{
+    mock_response = {
         "data": [
             "",
             "GPU drivers",
@@ -633,12 +634,13 @@ def webscraper(service_name):
             "Get started with selections",
             "Get started with Creative Cloud Beta appsPhotoshop (beta) on the desktop"
         ]
-        }}
+        }
 
     return mock_response
-    
+
+
 def ollama(website):
-    component_url = f'manager-ollama:5001/api/v1/generate'
+    component_url = 'manager-ollama:5001/api/v1/generate'
     response = requests.get(component_url, json=website)
 
     if response.status_code == 200:
