@@ -67,8 +67,6 @@ func (s *APIServer) Run() {
 
 // API Routes
 func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
-	specs := NewSpecs("Test GET response")
-
 	payload := mux.Vars(r)["payload"]
 	fmt.Println("Payload:", payload)
 
@@ -81,5 +79,5 @@ func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) e
 	}
 	defer response.Body.Close()
 
-	return WriteJSON(w, http.StatusOK, specs)
+	return WriteJSON(w, http.StatusOK, response)
 }
