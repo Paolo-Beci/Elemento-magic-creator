@@ -23,12 +23,12 @@ target_words = [
 
 
 def get_core_info(data):
-    # Remove duplicates
-    unique_text = list(set(data))
+    # Remove duplicates 
+    #unique_text = list(set(data))
     # Filter paragraphs that do not contain target words
     filtered_text = [
         text
-        for text in unique_text
+        for text in data
         if any(word in text.lower() for word in target_words)
     ]
     filtered_text = ". ".join(filtered_text)
