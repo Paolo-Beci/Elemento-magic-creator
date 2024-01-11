@@ -639,7 +639,7 @@ def webscraper(service_name):
     
 def ollama(website):
     component_url = f'manager-ollama:5001/api/v1/generate'
-    response = requests.get(component_url, params={'website': website})
+    response = requests.get(component_url, json=website)
 
     if response.status_code == 200:
         return response.json()
