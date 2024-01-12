@@ -20,8 +20,8 @@ def webscraper(service_name):
 
 
 def ollama(website):
-    component_url = 'http://manager-ollama:5001/api/v1/generate'
-    response = requests.get(component_url, json=mock_response)
+    component_url = 'http://manager-ollama:5001/api/v1/generate?direct=true'
+    response = requests.get(component_url, json=website)
 
     if response.status_code == 200:
         return response.json()

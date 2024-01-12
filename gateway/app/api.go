@@ -49,7 +49,7 @@ func Gateway(listenAddr, remoteHost, remotePort string) *APIServer {
 		remoteHost: remoteHost,
 		remotePort: remotePort,
 		client: &http.Client{
-			Timeout: 5 * time.Second, // Set a timeout for the HTTP client
+			Timeout: 500 * time.Second, // Set a timeout for the HTTP client
 		},
 	}
 }
