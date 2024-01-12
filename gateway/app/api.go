@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io"
 	"log"
 	"net/http"
 	"time"
-
 
 	"github.com/gorilla/mux"
 )
@@ -32,15 +32,15 @@ func makeHTTPHandleFunc(f apiFunc) http.HandlerFunc {
 		if err != nil {
 			fmt.Println("Error handling request:", err)
 			WriteJSON(w, http.StatusBadRequest, apiError{Error: err.Error()})
-		} 
+		}
 	}
 }
 
 type APIServer struct {
 	listenAddr string
-	remoteHost  string 
-	remotePort  string // DA TOGLIERE SE FUNZIONA IL NETWORKING
-	client      *http.Client
+	remoteHost string
+	remotePort string // DA TOGLIERE SE FUNZIONA IL NETWORKING
+	client     *http.Client
 }
 
 func Gateway(listenAddr, remoteHost, remotePort string) *APIServer {
@@ -54,7 +54,7 @@ func Gateway(listenAddr, remoteHost, remotePort string) *APIServer {
 	}
 }
 
-// Routes Initialization 
+// Routes Initialization
 func (s *APIServer) Run() {
 	router := mux.NewRouter()
 
@@ -77,7 +77,18 @@ func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) e
 		fmt.Println("Error making GET request to another container:", err)
 		return WriteJSON(w, http.StatusInternalServerError, apiError{Error: "Internal Server Error"})
 	}
+
 	defer response.Body.Close()
 
-	return WriteJSON(w, http.StatusOK, response)
+	body, err := io.ReadAll(response.Body)
+	if err != nil {
+		fmt.Println("Error reading response body:", err)
+		return WriteJSON(w, http.StatusInternalServerError, apiError{Error: "Internal Server Error"})
+	}
+
+	// TO DO: check if response from middleware is JSON
+	w.WriteHeader(response.StatusCode)
+	w.Header().Set("Content-Type", "application/json")
+	_, err = w.Write(body)
+	return err
 }

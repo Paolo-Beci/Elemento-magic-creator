@@ -10,6 +10,7 @@ def register_endpoints(app, get_services, save_service, get_service):
 
         print(request.headers)
         print(f"Service name ricevuto da gateway: {name_param}")
+        return jsonify({'message': 'Specs ricevute con successo'})
 
         service = get_service(name_param)
         if service:
