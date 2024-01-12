@@ -47,6 +47,7 @@ def ollama_request():
                 response = requests.post(api_url, json=payload)
 
                 if response.status_code != 200:
+                    if response.status_code == 404: llama_pull()
                     return (
                         jsonify({"error": "Failed to fetch data from Ollama API"}),
                         response.status_code,
@@ -59,6 +60,7 @@ def ollama_request():
             response = requests.post(api_url, json=payload)
 
             if response.status_code != 200:
+                if response.status_code == 404: llama_pull()
                 return (
                     jsonify({"error": "Failed to fetch data from Ollama API"}),
                     response.status_code,
