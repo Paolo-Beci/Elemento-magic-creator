@@ -12,6 +12,26 @@ def check_server():
     return jsonify({"message": "Manager-ollama server is running"})
 
 
+@app.route("/api/v1/pull/llama2", methods=["POST"])
+def llama_pull():
+    api_url = "http://ollama:11434/api/pull"
+    name = {
+        "name": "llama2",
+        "stream": False,
+    }
+
+    try:
+        response = requests.post(api_url, json=name)
+        if response.status_code != 200:
+            return (
+                jsonify({"error": "Failed to pull Llama2"}),
+                response.status_code,
+            )
+        return jsonify(response.json())
+    except requests.exceptions.RequestException as e:
+        return jsonify({"error": f"Request to Llama2 API failed: {e}"}), 500
+
+
 @app.route("/api/v1/generate", methods=["GET"])
 def ollama_request():
     api_url = "http://ollama:11434/api/generate"

@@ -43,6 +43,7 @@ services:
     networks:
       - net
     restart: unless-stopped
+  
   portainer:
     image: portainer/portainer-ce:latest
     ports:
