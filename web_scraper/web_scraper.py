@@ -29,8 +29,8 @@ class web_scraper():
             if self.url.startswith("http"):
                 try:
                     with sync_playwright() as p:
-                        browser = p.chromium.launch()
-                        context = browser.new_context()
+                        browser = p.firefox.launch(headless=True)
+                        context = browser.new_context(ignore_https_errors=True)
                         page = context.new_page()
                         page.goto(self.url,timeout=30000)
                         html_content = page.content()
