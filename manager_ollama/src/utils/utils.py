@@ -64,7 +64,13 @@ def get_gpu_info(pci):
 
 
 def refinement(data):
-    data["ramsize"] = data["ramsize"] * math.pow(1024, 3)
+    # * Refinement of the json (change keys in order to be consistent with the reference json)
+    data['slots'] = data.pop('cores')
+    data['flags'] = data.pop('instruction_sets')
+    data['ramsize'] = data.pop('ram_size')
+
+    # * Refinement of the values
+    data["ramsize"] = int(data["ramsize"]) * math.pow(1024, 3)
     data["pci"][0]["model"], data["pci"][0]["vendor"] = get_gpu_info(data["pci"])
     del data["pci"][1:] # ToDo: consider the case of Audio cards
 

@@ -4,8 +4,8 @@
     "allowSMT": ,
     "archs": ,
     "instruction_sets": ,
-    "min_frequency": ,
-    "ramsize": ,
+    "min_cpu_frequency": ,
+    "ram_size": ,
     "reqECC": ,
     "misc": {"os_family": "", "os_flavour": ""},
     "pci": [
