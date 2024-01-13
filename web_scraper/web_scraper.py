@@ -12,7 +12,7 @@ class web_scraper():
     def extract_url_text(self):
         try:
             search_class = DDGS()
-            search_query = f"system requirements for {self.input_txt} Processor (CPU)"
+            search_query = "'"+self.input_txt+"'" + "minimum recommended system requirements -forum -medium -troubleshooting"
             results = list(search_class.text(search_query,safesearch='off',backend="html",max_results=4))
             if results:
                 self.url = results[0]["href"]
