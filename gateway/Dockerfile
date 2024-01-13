@@ -1,17 +1,13 @@
-FROM golang:latest AS builder
+FROM golang:1.22-rc-alpine
 
 WORKDIR /app
 
-COPY . .
+COPY ./app /app
+COPY go.* /app
+RUN go mod download
 
-RUN cd src/gateway && go build -o /app/bin/gateway
-
-FROM alpine:latest
-
-WORKDIR /app
-
-COPY --from=builder /app/bin/gateway .
+RUN go build -o gateway .
 
 EXPOSE 8080
 
-CMD ["./gateway"]
+CMD ["./gateway"]    

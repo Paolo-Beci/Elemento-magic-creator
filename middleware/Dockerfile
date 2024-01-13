@@ -1,11 +1,11 @@
-FROM alpine:latest
+FROM python:3.9-alpine
 
-ENV DUMMY_VARIABLE="Hello, i'm the Midlleware!"
+WORKDIR /middleware
 
-WORKDIR /midlleware
-WORKDIR /midlleware/app
+COPY src/requirements.txt .
 
-COPY dummy_script.sh /midlleware/app/
-RUN chmod +x /midlleware/app/dummy_script.sh
+RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["/midlleware/app/dummy_script.sh"]
+COPY src .
+
+CMD ["flask", "run", "--host=0.0.0.0", "--port=5001"]

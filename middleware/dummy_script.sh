@@ -1,7 +1,8 @@
 #!/bin/sh
 
-echo "This is a dummy script running in a Docker container!"
-echo "Environment Variable: $DUMMY_VARIABLE"
+# Install python3 requirements
+pip install --no-cache-dir -r requirements.txt
+ls
 
-# Keep the container running
-tail -f /dev/null
+# Run the main.py
+python3 /middleware/src/main.py

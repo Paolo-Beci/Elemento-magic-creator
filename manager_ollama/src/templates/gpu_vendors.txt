@@ -1,0 +1,50 @@
+1. Name: NVIDIA GeForce RTX 3080 ; Vendor code: 0x10DE ; Model code: 0x2206
+2. Name: NVIDIA GeForce RTX 3070 ; Vendor code: 0x10DE ; Model code: 0x2204
+3. Name: NVIDIA GeForce RTX 3090 ; Vendor code: 0x10DE ; Model code: 0x2204
+4. Name: AMD Radeon RX 6800 XT ; Vendor code: 0x1002 ; Model code: 0x73BF
+5. Name: AMD Radeon RX 6900 XT ; Vendor code: 0x1002 ; Model code: 0x73BF
+6. Name: NVIDIA GeForce RTX 3060 Ti ; Vendor code: 0x10DE ; Model code: 0x2484
+7. Name: NVIDIA GeForce GTX 1660 Ti ; Vendor code: 0x10DE ; Model code: 0x2191
+8. Name: AMD Radeon RX 6700 XT ; Vendor code: 0x1002 ; Model code: 0x73FF
+9. Name: NVIDIA GeForce GTX 1660 Super ; Vendor code: 0x10DE ; Model code: 0x21C4
+10. Name: AMD Radeon RX 6600 XT ; Vendor code: 0x1002 ; Model code: 0x73FF
+11. Name: NVIDIA GeForce GTX 1650 Super ; Vendor code: 0x10DE ; Model code: 0x2187
+12. Name: AMD Radeon RX 5700 XT ; Vendor code: 0x1002 ; Model code: 0x731F
+13. Name: NVIDIA GeForce RTX 3060 ; Vendor code: 0x10DE ; Model code: 0x2484
+14. Name: AMD Radeon RX 5600 XT ; Vendor code: 0x1002 ; Model code: 0x731F
+15. Name: NVIDIA GeForce GTX 1650 ; Vendor code: 0x10DE ; Model code: 0x2182
+16. Name: NVIDIA GeForce RTX 3050 Ti ; Vendor code: 0x10DE ; Model code: 0x25C9
+17. Name: AMD Radeon RX 5500 XT ; Vendor code: 0x1002 ; Model code: 0x7340
+18. Name: NVIDIA GeForce GTX 1660 ; Vendor code: 0x10DE ; Model code: 0x2184
+19. Name: AMD Radeon RX 580 ; Vendor code: 0x1002 ; Model code: 0x67DF
+20. Name: NVIDIA GeForce GTX 1650 GDDR6 ; Vendor code: 0x10DE ; Model code: 0x1F95
+21. Name: AMD Radeon RX 6700 ; Vendor code: 0x1002 ; Model code: 0x73FF
+22. Name: NVIDIA GeForce RTX 3050 ; Vendor code: 0x10DE ; Model code: 0x25C4
+23. Name: AMD Radeon RX 5600 ; Vendor code: 0x1002 ; Model code: 0x7340
+24. Name: NVIDIA GeForce GTX 1660 Super ; Vendor code: 0x10DE ; Model code: 0x2184
+25. Name: AMD Radeon RX 5500 ; Vendor code: 0x1002 ; Model code: 0x7340
+26. Name: NVIDIA GeForce GTX 1650 GDDR5 ; Vendor code: 0x10DE ; Model code: 0x2182
+27. Name: AMD Radeon RX 590 ; Vendor code: 0x1002 ; Model code: 0x67DF
+28. Name: NVIDIA GeForce GTX 1650 DDR3 ; Vendor code: 0x10DE ; Model code: 0x1F91
+29. Name: AMD Radeon RX 560 ; Vendor code: 0x1002 ; Model code: 0x67FF
+30. Name: NVIDIA GeForce GT 1030 ; Vendor code: 0x10DE ; Model code: 0x1D01
+31. Name: AMD Radeon RX 6800 ; Vendor code: 0x1002 ; Model code: 0x73BF
+32. Name: NVIDIA GeForce RTX 3050 Ti ; Vendor code: 0x10DE ; Model code: 0x25C9
+33. Name: AMD Radeon RX 5500 ; Vendor code: 0x1002 ; Model code: 0x7340
+34. Name: NVIDIA GeForce GTX 1660 GDDR6 ; Vendor code: 0x10DE ; Model code: 0x2184
+35. Name: AMD Radeon RX 5700 ; Vendor code: 0x1002 ; Model code: 0x731F
+36. Name: NVIDIA GeForce GTX 1650 GDDR6 ; Vendor code: 0x10DE ; Model code: 0x1F95
+37. Name: AMD Radeon RX 5600 ; Vendor code: 0x1002 ; Model code: 0x7340
+38. Name: NVIDIA GeForce GTX 1650 DDR3 ; Vendor code: 0x10DE ; Model code: 0x1F91
+39. Name: AMD Radeon RX 590 ; Vendor code: 0x1002 ; Model code: 0x67DF
+40. Name: NVIDIA GeForce GTX 1650 GDDR5 ; Vendor code: 0x10DE ; Model code: 0x2182
+41. Name: AMD Radeon RX 560 ; Vendor code: 0x1002 ; Model code: 0x67FF
+42. Name: NVIDIA GeForce GT 1030 ; Vendor code: 0x10DE ; Model code: 0x1D01
+43. Name: AMD Radeon RX 6800 ; Vendor code: 0x1002 ; Model code: 0x73BF
+44. Name: NVIDIA GeForce RTX 3050 Ti ; Vendor code: 0x10DE ; Model code: 0x25C9
+45. Name: AMD Radeon RX 5500 ; Vendor code: 0x1002 ; Model code: 0x7340
+46. Name: NVIDIA GeForce GTX 1660 GDDR6 ; Vendor code: 0x10DE ; Model code: 0x2184
+47. Name: AMD Radeon RX 5700 ; Vendor code: 0x1002 ; Model code: 0x731F
+48. Name: NVIDIA GeForce GTX 1650 GDDR6 ; Vendor code: 0x10DE ; Model code: 0x1F95
+49. Name: AMD Radeon RX 5600 ; Vendor code: 0x1002 ; Model code: 0x7340
+50. Name: NVIDIA GeForce GTX 1650 DDR3 ; Vendor code: 0x10DE ; Model code: 0x1F91

@@ -12,41 +12,60 @@ services:
 
   middleware:
     build: ./middleware
+    container_name: middleware
     hostname: middleware
-    environment:
-      DB_URL: mongodb://db/cache
     networks:
       - net
     restart: unless-stopped
 
-  web_scraper:
+  web-scraper:
     build: ./web_scraper
+    container_name: web-scraper
     hostname: web_scraper
     networks:
       - net
     restart: unless-stopped
 
-  manager_ollama:
+  manager-ollama:
     build: ./manager_ollama
-    hostname: manager_ollama
-    networks:
-      - net
-    restart: unless-stopped
-
-  db:
-    image: postgres:13.1-alpine
-    hostname: db
-    volumes:
-      - cache:/data/db
+    container_name: manager-ollama
+    hostname: manager-ollama
     networks:
       - net
     restart: unless-stopped
 
   ollama:
     image: ollama/ollama
+    container_name: ollama
     hostname: ollama
     volumes:
-      - ollama_data:/app
+      - ollama_data:/root/.ollama
+    networks:
+      - net
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+  
+  portainer:
+    image: portainer/portainer-ce:latest
+    ports:
+      - 9443:9443
+    volumes:
+      - data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+
+  ui:
+    build: ./UI
+    container_name: ui
+    hostname: ui
+    ports:
+      - "80:80"
     networks:
       - net
     restart: unless-stopped
@@ -56,6 +75,7 @@ volumes:
     driver: local
   ollama_data:
     driver: local
+  data:
 
 networks:
   net:
