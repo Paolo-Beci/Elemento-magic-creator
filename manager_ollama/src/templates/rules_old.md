@@ -3,11 +3,11 @@
 *vmspec.json*
 | Name | datatype | Brief description | 
 | ---- |----------| ------------------|
-| Cores | int | number of cores |
+| slots | int | number of cores |
 | overprovision | int |maximum VM for each core|
 | allowSMT | bool |
 | archs | string |architecture of the system|
-| instruction_sets | list |processor's instruction set architecture|
+| flags | list |processor's instruction set architecture|
 | min_frequency | float |minum processor frequency in expressed in GHz|
 | ramsize | int | ram dimension expressed in GB|
 | reqECC | bool |request for ecc ram|

@@ -1,5 +1,5 @@
 {
-    "cores": ,
+    "processor_cores": ,
     "overprovision": ,
     "allowSMT": ,
     "archs": ,
