@@ -16,7 +16,7 @@ class web_scraper():
             results = list(search_class.text(search_query,safesearch='off',backend="html",max_results=4))
             if results:
                 self.url = results[0]["href"]
-                print("url path retrived" + self.url)
+                print("url path retrieved " + self.url)
                 self.filter_html()
             return self.filter_html()
         except DuckDuckGoSearchException as e:
