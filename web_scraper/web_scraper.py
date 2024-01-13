@@ -1,9 +1,10 @@
 import uvicorn
-from duckduckgo_search import DDGS,exceptions
+from duckduckgo_search import DDGS
+from duckduckgo_search.exceptions import DuckDuckGoSearchException
 from bs4 import BeautifulSoup
 from urllib.error import URLError,HTTPError
 from fastapi import FastAPI
-from playwright.sync_api import sync_playwright,RuntimeError
+from playwright.sync_api import sync_playwright,TimeoutError
 class web_scraper():
     def __init__(self,input_txt):
         self.input_txt = input_txt
@@ -18,9 +19,9 @@ class web_scraper():
                 print("url path retrived" + self.url)
                 self.filter_html()
             return self.filter_html()
+        except DuckDuckGoSearchException as e:
+            print(f"Duck Duck go search error occurred during search: {e}")
         except (Exception) as e:
-                print(e.__str__())
-        except (exceptions) as e:
                 print(e.__str__())
 
     def filter_html(self):
@@ -34,12 +35,12 @@ class web_scraper():
                         page.goto(self.url,timeout=30000)
                         html_content = page.content()
                         browser.close()
-                except RuntimeError as e:
-                    print(f"playwright runtime error: {e}")
+                except TimeoutError as e:
+                    print(f"Timeout error occurred during rendering: {e}")
                 except KeyboardInterrupt:
                     print("Process interrupted")
                 except Exception as e:
-                    print(f"An error occurred during rendering: {e}")
+                    print(f"An general occurred during rendering: {e}")
                     return None
                 soup = BeautifulSoup(html_content, 'html.parser')
                 selected_tags = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'div', 'span', 'a', 'strong', 'em', 'ul', 'ol', 'li']
