@@ -1,9 +1,9 @@
 {
-    "cores": ,
+    "slots": ,
     "overprovision": ,
     "allowSMT": ,
     "archs": ,
-    "instruction_sets": ,
+    "flags": ,
     "min_frequency": ,
     "ramsize": ,
     "reqECC": ,
