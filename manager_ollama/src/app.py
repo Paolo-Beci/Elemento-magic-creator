@@ -15,8 +15,9 @@ def check_server():
 @app.route("/api/v1/pull/llama2", methods=["POST"])
 def llama_pull():
     api_url = "http://ollama:11434/api/pull"
+
     name = {
-        "name": "llama2",
+        "name": "llama2:13b",
         "stream": False,
     }
 
@@ -38,15 +39,19 @@ def ollama_request():
 
     try:
         data = request.json
+        if data is None:
+            return jsonify({"error": "No data provided in body request"}), 404
 
-        if "direct" not in request.args:
+        direct = request.args.get("direct")
+        if direct is None or direct == "false":
             # * First step: refinement of the body
             filtered_text = utils.get_core_info(data)
             payload = ollama_utils.extract_requirements(filtered_text)
             response = requests.post(api_url, json=payload)
 
             if response.status_code != 200:
-                if response.status_code == 404: llama_pull()
+                if response.status_code == 404:
+                    llama_pull()
                 return (
                     jsonify({"error": "Failed to fetch data from Ollama API"}),
                     response.status_code,
@@ -59,7 +64,8 @@ def ollama_request():
         response = requests.post(api_url, json=payload)
 
         if response.status_code != 200:
-            if response.status_code == 404: llama_pull()
+            if response.status_code == 404:
+                llama_pull()
             return (
                 jsonify({"error": "Failed to fetch data from Ollama API"}),
                 response.status_code,

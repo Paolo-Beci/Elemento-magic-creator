@@ -1,5 +1,6 @@
 from templates import templates
 
+llama_version = "llama2:13b"
 
 def extract_requirements(filtered_text):
     prompt = (
@@ -8,7 +9,7 @@ def extract_requirements(filtered_text):
     )
 
     payload = {
-        "model": "llama2",
+        "model": llama_version,
         "prompt": prompt,
         "stream": False,
     }
@@ -27,7 +28,7 @@ def generate_config(data):
     )
 
     payload = {
-        "model": "llama2",
+        "model": llama_version,
         "prompt": prompt,
         "format": "json",
         "stream": False,
