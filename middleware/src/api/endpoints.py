@@ -13,13 +13,13 @@ def register_endpoints(app, get_services, save_service, get_service):
         website = webscraper(name_param)
 
         execution_time_webscraper = time.time() - start_time
-        app.logger.info(f'Tempo di esecuzione di webscraper: {execution_time_webscraper} secondi')
+        print(f'Tempo di esecuzione di webscraper: {execution_time_webscraper} secondi')
         start_time = time.time()
 
         component_response = ollama(website)
 
         execution_time_ollama = time.time() - start_time
-        app.logger.info(f'Tempo di esecuzione di ollama: {execution_time_ollama} secondi')
+        print(f'Tempo di esecuzione di ollama: {execution_time_ollama} secondi')
 
         if component_response:
             # save_service(component_response['service_name'], component_response['json_data'])
