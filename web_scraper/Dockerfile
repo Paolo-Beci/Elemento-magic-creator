@@ -1,11 +1,17 @@
-FROM alpine:latest
+FROM ubuntu:latest
 
-ENV DUMMY_VARIABLE="Hello, i'm the Web scraper!"
+RUN apt update
+RUN apt install -y python3
+RUN apt install -y python3-pip
 
-WORKDIR /web_scraper
-WORKDIR /web_scraper/app
+EXPOSE 1113
+RUN mkdir /web_scraper/
+WORKDIR /web_scraper/
 
-COPY dummy_script.sh /web_scraper/app/
-RUN chmod +x /web_scraper/app/dummy_script.sh
+COPY ./ ./
 
-CMD ["/web_scraper/app/dummy_script.sh"]
+RUN python3 -m pip install --no-cache-dir -U -r ./requirements.txt
+RUN playwright install
+RUN playwright install-deps
+
+ENTRYPOINT python3 web_scraper.py
