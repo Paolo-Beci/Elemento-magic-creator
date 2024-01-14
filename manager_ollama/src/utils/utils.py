@@ -81,7 +81,7 @@ def refinement(data):
     data["slots"] = data.pop("processor_cores")
     data["flags"] = data.pop("instruction_sets")
     data["min_frequency"] = data.pop("min_cpu_frequency")
-    data["ramsize"] = data.pop("ram_size")
+    data["ramsize"] = data.pop("ram")
 
     # * Refinement of the values
     data["ramsize"] = (

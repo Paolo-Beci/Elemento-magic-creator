@@ -5,7 +5,7 @@
     "archs": ,
     "instruction_sets": ,
     "min_cpu_frequency": ,
-    "ram_size": ,
+    "ram": ,
     "reqECC": ,
     "misc": {"os_family": "", "os_flavour": ""},
     "pci": [

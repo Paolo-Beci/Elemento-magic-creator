@@ -13,6 +13,11 @@ def extract_requirements(filtered_text):
         "model": llama_version,
         "prompt": prompt,
         "stream": False,
+        "options": {
+            "temperature": 0.2,
+            "top_k": 10,
+            "top_p": 0.9,
+        },
     }
 
     return payload
@@ -20,11 +25,11 @@ def extract_requirements(filtered_text):
 
 def generate_config(data):
     prompt = (
-        "Considering the requirements:"
+	"Considering the requirements:"
         + data
-        + "<GENERATE_JSON> Create a JSON following rules:"
+	+ "Create a JSON following rules:"
         + templates.get_rules()
-        + "<FILL_JSON> Return only the json with this structure:"
+        + "Return only the json with this structure:"
         + templates.get_structure()
     )
 
@@ -35,7 +40,7 @@ def generate_config(data):
         "stream": False,
         "options": {
             "temperature": 0.2,
-            "top_k": 0.2,
+            "top_k": 10,
             "top_p": 0.9,
         },
     }
