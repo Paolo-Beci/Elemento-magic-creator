@@ -2,6 +2,7 @@ from templates import templates
 
 llama_version = "llama2:13b"
 
+
 def extract_requirements(filtered_text):
     prompt = (
         "Get all core information about techinical System Requirements from this text:"
@@ -12,6 +13,11 @@ def extract_requirements(filtered_text):
         "model": llama_version,
         "prompt": prompt,
         "stream": False,
+        "options": {
+            "temperature": 0.2,
+            "top_k": 10,
+            "top_p": 0.9,
+        },
     }
 
     return payload
@@ -19,9 +25,9 @@ def extract_requirements(filtered_text):
 
 def generate_config(data):
     prompt = (
-        "Considering the requirements:"
+	"Considering the requirements:"
         + data
-        + "Create a JSON following rules:"
+	+ "Create a JSON following rules:"
         + templates.get_rules()
         + "Return only the json with this structure:"
         + templates.get_structure()
@@ -32,6 +38,11 @@ def generate_config(data):
         "prompt": prompt,
         "format": "json",
         "stream": False,
+        "options": {
+            "temperature": 0.2,
+            "top_k": 10,
+            "top_p": 0.9,
+        },
     }
 
     return payload

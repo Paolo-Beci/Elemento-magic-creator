@@ -1,11 +1,11 @@
 {
-    "processor_cores": ,
+    "slots": ,
     "overprovision": ,
     "allowSMT": ,
     "archs": ,
-    "instruction_sets": ,
-    "min_cpu_frequency": ,
-    "ram_size": ,
+    "flags": ,
+    "min_frequency": ,
+    "ramsize": ,
     "reqECC": ,
     "misc": {"os_family": "", "os_flavour": ""},
     "pci": [
