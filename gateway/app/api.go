@@ -7,10 +7,11 @@ import (
 	"log"
 	"net/http"
 	"net/url"
+	"regexp"
 	"time"
 
-	"github.com/gorilla/mux"
 	"github.com/gorilla/handlers"
+	"github.com/gorilla/mux"
 )
 
 // Packages used:
@@ -63,7 +64,7 @@ func (s *APIServer) Run() {
 	// Enable CORS middleware
     corsMiddleware := handlers.CORS(
         handlers.AllowedOrigins([]string{"*"}), // DA MODIFICARE con indirizzo specifico
-        handlers.AllowedMethods([]string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}),
+        handlers.AllowedMethods([]string{"GET"}),
         handlers.AllowedHeaders([]string{"Content-Type", "Authorization"}),
     )
 	router.Use(corsMiddleware)
@@ -82,7 +83,13 @@ func (s *APIServer) Run() {
 // Example: GET /api/v1/specs/Minecraft
 func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
 	payload := mux.Vars(r)["payload"]
-	fmt.Println("Payload:", payload)
+	
+	// Payload validation
+	matched, err := regexp.MatchString(`^[a-zA-Z0-9\s]+$`, payload)
+	if err != nil || !matched {
+		return WriteJSON(w, http.StatusBadRequest, apiError{Error: "Invalid payload format"})
+	}
+
 	encodedPayload := url.Values{"name": {payload}}.Encode()
 
 	// Make a GET request to Middleware container
