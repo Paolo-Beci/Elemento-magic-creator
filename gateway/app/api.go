@@ -6,6 +6,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"net/url"
 	"time"
 
 	"github.com/gorilla/mux"
@@ -82,9 +83,10 @@ func (s *APIServer) Run() {
 func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
 	payload := mux.Vars(r)["payload"]
 	fmt.Println("Payload:", payload)
+	encodedPayload := url.Values{"name": {payload}}.Encode()
 
 	// Make a GET request to Middleware container
-	remoteURL := fmt.Sprintf("http://%s:%s/api/v1/get-specs?name=%s", s.remoteHost, s.remotePort, payload) // DA TOGLIERE PORTA SE FUNZIONA IL NETWORKING
+	remoteURL := fmt.Sprintf("http://%s:%s/api/v1/get-specs?%s", s.remoteHost, s.remotePort, encodedPayload)
 	response, err := s.client.Get(remoteURL)
 	if err != nil {
 		fmt.Println("Error making GET request to another container:", err)

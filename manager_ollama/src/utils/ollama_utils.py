@@ -5,7 +5,7 @@ llama_version = "llama2:13b"
 
 def extract_requirements(filtered_text):
     prompt = (
-        "Get all core information about techinical System Requirements divided per OS from this text:"
+        "Get all core information about techinical System Requirements from this text:"
         + filtered_text
     )
 
@@ -29,7 +29,7 @@ def generate_config(data):
         + data
 	+ "Create a JSON following these rules:"
         + templates.get_rules()
-        + "Return only the json with this structure:"
+    + "Return only the json with this structure:"
         + templates.get_structure()
     )
 
