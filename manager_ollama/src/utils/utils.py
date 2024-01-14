@@ -3,33 +3,44 @@ from difflib import SequenceMatcher
 from templates import templates
 
 target_words = [
+    # GENERAL
     "gpu",
     "cpu",
+    "os",
     "system",
     "requirement",
     "requirements",
-    "os",
-    "frequency",
     "version",
     "minimum",
     "recommended",
     "memory",
     "ram",
-    "disk",
     "GB",
     "GHz",
     "settings",
+    "frequency",
+    "instruction",
+    "set",
+    # OS
+    "Windows",
+    "linux",
+    "mac",
+    # CPU
+    "intel",
+    "amd",
+    # GPU
+    "nvidia",
+    "geforce",
+    "rtx",
+    "gtx",
+    "amd",
+    "radeon",
 ]
 
 
 def get_core_info(data):
-    # Remove duplicates 
-    #unique_text = list(set(data))
-    # Filter paragraphs that do not contain target words
     filtered_text = [
-        text
-        for text in data
-        if any(word in text.lower() for word in target_words)
+        text for text in data if any(word in text.lower() for word in target_words)
     ]
     filtered_text = ". ".join(filtered_text)
 
@@ -37,7 +48,9 @@ def get_core_info(data):
 
 
 def similar(a, b):
-    return SequenceMatcher(None, a, b).ratio() # returns a float between 0 and 1 that indicates the similarity
+    return SequenceMatcher(
+        None, a, b
+    ).ratio()  # returns a float between 0 and 1 that indicates the similarity
 
 
 def get_gpu_info(pci):
@@ -65,14 +78,16 @@ def get_gpu_info(pci):
 
 def refinement(data):
     # * Refinement of the json (change keys in order to be consistent with the reference json)
-    data['slots'] = data.pop('processor_cores')
-    data['flags'] = data.pop('instruction_sets')
-    data['min_frequency'] = data.pop('min_cpu_frequency')
-    data['ramsize'] = data.pop('ram_size')
+    data["slots"] = data.pop("processor_cores")
+    data["flags"] = data.pop("instruction_sets")
+    data["min_frequency"] = data.pop("min_cpu_frequency")
+    data["ramsize"] = data.pop("ram_size")
 
     # * Refinement of the values
-    data["ramsize"] = (data["ramsize"][0] if isinstance(data["ramsize"], list) else data["ramsize"]) * math.pow(1024, 3)
+    data["ramsize"] = (
+        data["ramsize"][0] if isinstance(data["ramsize"], list) else data["ramsize"]
+    ) * math.pow(1024, 3)
     data["pci"][0]["model"], data["pci"][0]["vendor"] = get_gpu_info(data["pci"])
-    del data["pci"][1:] # ToDo: consider the case of Audio cards
+    del data["pci"][1:]  # ToDo: consider the case of Audio cards
 
     return data
