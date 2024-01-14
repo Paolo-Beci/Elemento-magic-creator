@@ -80,7 +80,7 @@ func (s *APIServer) Run() {
 
 // GET /api/v1/specs/{payload}
 // Returns the specs of the given payload.
-// Example: GET /api/v1/specs/Minecraft
+// Params: payload (string) is the name of the service to get the specs of.
 func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
 	payload := mux.Vars(r)["payload"]
 	
@@ -107,8 +107,7 @@ func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) e
 		fmt.Println("Error reading response body:", err)
 		return WriteJSON(w, http.StatusInternalServerError, apiError{Error: "Internal Server Error"})
 	}
-
-	// TO DO: check if response from middleware is JSON
+	
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(response.StatusCode)
