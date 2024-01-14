@@ -44,8 +44,11 @@
         function submitForm() {
             var inputValue = document.getElementById('inputField').value;
             
+            // IF i wnat to use it like an API
             var serverEndpoint = 'http://146.59.207.105:8080/api/v1/specs/'; 
-            //var serverEndpoint = 'http://gateway:8080/api/v1/specs/';  // If used in the docker network
+
+            // IF i want to use it locally (for testing)
+            //var serverEndpoint = 'http://localhost:8080/api/v1/specs/';
 
             var url = serverEndpoint + encodeURIComponent(inputValue);
 

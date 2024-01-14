@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+	"github.com/gorilla/handlers"
 )
 
 // Packages used:
@@ -39,7 +40,7 @@ func makeHTTPHandleFunc(f apiFunc) http.HandlerFunc {
 type APIServer struct {
 	listenAddr string
 	remoteHost string
-	remotePort string // DA TOGLIERE SE FUNZIONA IL NETWORKING
+	remotePort string
 	client     *http.Client
 }
 
@@ -49,7 +50,7 @@ func Gateway(listenAddr, remoteHost, remotePort string) *APIServer {
 		remoteHost: remoteHost,
 		remotePort: remotePort,
 		client: &http.Client{
-			Timeout: 500 * time.Second, // Set a timeout for the HTTP client
+			Timeout: 500 * time.Second, 
 		},
 	}
 }
@@ -57,6 +58,14 @@ func Gateway(listenAddr, remoteHost, remotePort string) *APIServer {
 // Routes Initialization
 func (s *APIServer) Run() {
 	router := mux.NewRouter()
+
+	// Enable CORS middleware
+    corsMiddleware := handlers.CORS(
+        handlers.AllowedOrigins([]string{"*"}), // DA MODIFICARE con indirizzo specifico
+        handlers.AllowedMethods([]string{"GET", "POST", "PUT", "DELETE", "OPTIONS"}),
+        handlers.AllowedHeaders([]string{"Content-Type", "Authorization"}),
+    )
+	router.Use(corsMiddleware)
 
 	router.HandleFunc("/api/v1/specs/{payload}", makeHTTPHandleFunc(s.handleGetSpecsCall))
 
@@ -66,11 +75,15 @@ func (s *APIServer) Run() {
 }
 
 // API Routes
+
+// GET /api/v1/specs/{payload}
+// Returns the specs of the given payload.
+// Example: GET /api/v1/specs/Minecraft
 func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) error {
 	payload := mux.Vars(r)["payload"]
 	fmt.Println("Payload:", payload)
 
-	// Make a GET request to middleware container
+	// Make a GET request to Middleware container
 	remoteURL := fmt.Sprintf("http://%s:%s/api/v1/get-specs?name=%s", s.remoteHost, s.remotePort, payload) // DA TOGLIERE PORTA SE FUNZIONA IL NETWORKING
 	response, err := s.client.Get(remoteURL)
 	if err != nil {
@@ -88,6 +101,7 @@ func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) e
 
 	// TO DO: check if response from middleware is JSON
 	w.WriteHeader(response.StatusCode)
+	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Content-Type", "application/json")
 	_, err = w.Write(body)
 	return err
