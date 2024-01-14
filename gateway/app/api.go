@@ -100,9 +100,9 @@ func (s *APIServer) handleGetSpecsCall(w http.ResponseWriter, r *http.Request) e
 	}
 
 	// TO DO: check if response from middleware is JSON
-	w.WriteHeader(response.StatusCode)
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(response.StatusCode)
 	_, err = w.Write(body)
 	return err
 }
