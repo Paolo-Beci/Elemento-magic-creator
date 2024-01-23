@@ -2,18 +2,22 @@ import uvicorn
 from duckduckgo_search import DDGS
 from duckduckgo_search.exceptions import DuckDuckGoSearchException
 from bs4 import BeautifulSoup
-from urllib.error import URLError,HTTPError
+from urllib.error import URLError, HTTPError
 from fastapi import FastAPI
-from playwright.sync_api import sync_playwright,TimeoutError
+from playwright.sync_api import sync_playwright, TimeoutError
+
+
 class web_scraper():
-    def __init__(self,input_txt):
+    def __init__(self, input_txt):
         self.input_txt = input_txt
 
     def extract_url_text(self):
         try:
             search_class = DDGS()
-            search_query = "'"+self.input_txt+"'" + "minimum recommended system requirements -forum -medium -troubleshooting"
-            results = list(search_class.text(search_query,safesearch='off',backend="html",max_results=4))
+            search_query = "'"+self.input_txt+"'" + \
+                "minimum recommended system requirements -forum -medium -troubleshooting"
+            results = list(search_class.text(
+                search_query, safesearch='off', backend="html", max_results=4))
             if results:
                 self.url = results[0]["href"]
                 print("url path retrieved " + self.url)
@@ -22,7 +26,7 @@ class web_scraper():
         except DuckDuckGoSearchException as e:
             print(f"Duck Duck go search error occurred during search: {e}")
         except (Exception) as e:
-                print(e.__str__())
+            print(e.__str__())
 
     def filter_html(self):
         try:
@@ -32,7 +36,7 @@ class web_scraper():
                         browser = p.firefox.launch(headless=True)
                         context = browser.new_context(ignore_https_errors=True)
                         page = context.new_page()
-                        page.goto(self.url,timeout=30000)
+                        page.goto(self.url, timeout=30000)
                         html_content = page.content()
                         browser.close()
                 except TimeoutError as e:
@@ -43,13 +47,17 @@ class web_scraper():
                     print(f"An general occurred during rendering: {e}")
                     return None
                 soup = BeautifulSoup(html_content, 'html.parser')
-                selected_tags = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'div', 'span', 'a', 'strong', 'em', 'ul', 'ol', 'li']
+                selected_tags = ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
+                                 'div', 'span', 'a', 'strong', 'em', 'ul', 'ol', 'li']
                 selected_tags_content = soup.find_all(selected_tags)
-                extracted_text = [tag.get_text(strip=True) for tag in selected_tags_content]
+                extracted_text = [tag.get_text(strip=True)
+                                  for tag in selected_tags_content]
                 text_content = list(set(extracted_text))
-                return text_content   
-        except (URLError,HTTPError) as e:
-                print(e.__str__())                 
+                return text_content
+        except (URLError, HTTPError) as e:
+            print(e.__str__())
+
+
 class web_scraper_restapi():
     def __init__(self):
         description = """ Web Scraper API 🚀
@@ -77,18 +85,19 @@ class web_scraper_restapi():
                 "name": "Elemento",
                 "url": "https://www.elemento.cloud/#contact-form",
                 "email": "hello@elemento.cloud"},
-            )
-    # Execute RESTApi
+        )
 
+    # Execute RESTApi
     def run(self):
         @self.restAPIApp.get('/requirements')
         def get_application_name(application_name: str):
             if application_name is not None:
                 exec = web_scraper(application_name)
-                file_content = exec.extract_url_text() 
+                file_content = exec.extract_url_text()
                 return file_content
 
         return self.restAPIApp
+
 
 exec = web_scraper_restapi()
 app = exec.run()
