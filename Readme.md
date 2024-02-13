@@ -1,58 +1,33 @@
-# Architecture
+## Architecture
+This implementation aims to automatically generate [Elemento ElectroOS custom configs](https://github.com/Elemento-Modular-Cloud/electros) based on the name of a service, like Adobe Photoshop. By doing so, it creates tailor-made virtual machines that meet the recommended requirements of the specified service.
+It works by scraping the internet for official recommended configurations and then processing this information with the Ollama model to create a JSON VM config.
+The system is based on a microservice architecture, each service is autonomous and exposes endpoints that executes a specific action, every box is a standalone Docker container.
+
 ![Architecture](images/architecture.png)
 
-# API endpoints e pipeline
+## API endpoints and pipeline
 
 ### 1. GET …:5000/api/v1/get-specs?name={…}
 
-Il Gateway inoltra la richiesta al middleware
+The Gateway forwards the request to the middleware.
 
 ### 2. GET web_scraper/payload
 
-il Web scraper risponde con l’HTML SENZA TAG nel body come response.
+The Web scraper responds with the HTML without tags in the body as response.
 
 ### 3. GET manager_ollama/payload
 
-Il manager ollama prende l’HTML→ lo filtra→ lo passa ad ollama e risponde con il json.
+The ollama manager takes the HTML → filters it → passes it to Ollama that responds with the json.
 
 ### 4. GET ollama:11334/…
 
-Ottiene la risposta del modello, verrà utilizzata nella response per il Middleware
+Gets the model response, it will be used in the response for the middleware.
 
-### 5. Salvataggio su DB
+### 5. Saving on the DB
 
-Prima fase: semplice file txt → solo il json
+The result is saved on a DB in order to save time in the future in case the same request is made.
 
-### 6. Passaggio della risposta 2 al gateway
+### 6. Passing the response to the gateway and forwarding to the client
 
-
-# Elemento coding conventions
-
-Use this repo as template for new and existing repos
-
-# Conventions
-
-In Elemento we use [Google Style coding conventions](https://google.github.io/styleguide/).
-
-## Examples
-
-### Environment variables
-
-`ELEMENTO_ENVIRONMENT_VARIABLE`
-
-### Git repositories
-
-`elemento-function-{client,server}`
-
-### Python
-Use flake8 and autopep8 to refactor your code.
-
-```python
-class ElementoClass():
-    def __init__():
-        self.dataMember = None
-    
-    def get_function():
-        pass
-
-```
+## Team
+![Elemento_page-0006](https://github.com/Paolo-Beci/NASA-Space-Apps-2023/assets/71789321/a0a55f09-ed98-4081-9598-ea3a15d4a199)
